@@ -1,0 +1,210 @@
+{
+  "sacred_paradoxes": [
+    {
+      "id": 1,
+      "title": "The Ship of Theseus",
+      "thought": "If every plank of a sacred vessel is replaced over time, does the original soul remain?"
+    },
+    {
+      "id": 2,
+      "title": "Plato's Cave",
+      "thought": "Mortals mistake the flickering shadows upon the stone for the ultimate truth of reality."
+    },
+    {
+      "id": 3,
+      "title": "Socratic Ignorance",
+      "thought": "I know that I know nothing. True wisdom lies in knowing the limits of your mind."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ethics",
+      "category": "How you make decisions",
+      "question": "Where rests the ultimate weight of moral judgment?",
+      "a": "In universal duties, intent, and inviolable principles",
+      "b": "In real-world consequences and net human benefit",
+      "termA": "Deontology (Kantian)",
+      "termB": "Utilitarianism (Mill)",
+      "valA": "deontology",
+      "valB": "utilitarianism"
+    },
+    {
+      "id": "epistemology",
+      "category": "How you learn",
+      "question": "What is the primary foundation of human knowledge?",
+      "a": "Pure logic, mathematical reason, and innate deduction",
+      "b": "Sensory observation, trial, and empirical evidence",
+      "termA": "Rationalism (Descartes)",
+      "termB": "Empiricism (Hume)",
+      "valA": "rationalism",
+      "valB": "empiricism"
+    },
+    {
+      "id": "existentialism",
+      "category": "What gives life meaning",
+      "question": "What is the true origin of human meaning?",
+      "a": "We actively construct our own purpose in an indifferent cosmos",
+      "b": "Purpose is inherent in the order of nature waiting to be revealed",
+      "termA": "Existentialism (Sartre)",
+      "termB": "Teleology (Aristotle)",
+      "valA": "existentialism",
+      "valB": "teleology"
+    },
+    {
+      "id": "metaphysics",
+      "category": "What reality is made of",
+      "question": "What constitutes the ultimate nature of reality?",
+      "a": "Material substances bound by eternal physical law",
+      "b": "Consciousness, ideas, or non-material spiritual essence",
+      "termA": "Physicalism / Materialism",
+      "termB": "Idealism / Dualism",
+      "valA": "physicalism",
+      "valB": "idealism"
+    },
+    {
+      "id": "agency",
+      "category": "How much choice you have",
+      "question": "How operates the wheel of human choice?",
+      "a": "All choices are predetermined by prior physical states",
+      "b": "Humans possess genuine autonomous free agency",
+      "termA": "Hard Determinism",
+      "termB": "Libertarian Agency",
+      "valA": "determinism",
+      "valB": "freewill"
+    }
+  ],
+  "archetypes": {
+    "stoic_rationalist": {
+      "archetype_title": "The Grounded Thinker",
+      "philosophical_thesis": "Reality is governed by a rational cosmic structure (Logos). Virtue consists in understanding natural necessity, mastering internal judgment, and accepting the flow of external causality.",
+      "radar_scores": {
+        "ethics": 85,
+        "epistemology": 90,
+        "existentialism": 40,
+        "metaphysics": 75,
+        "agency": 35
+      },
+      "matching_philosophers": [
+        {
+          "name": "Marcus Aurelius",
+          "era_or_school": "Roman Stoicism (121 – 180 AD)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "core_idea": "Mastery over internal representation and resignation to universal reason.",
+          "key_quote": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+          "detailed_summary": "Marcus Aurelius served as Roman Emperor while maintaining a private reflective journal now known as the 'Meditations'. His thought aligns with your emphasis on duty, self-control, and rational composure in the face of chaos.\n\nHe argued that suffering stems not from objective events, but from our subjective judgment of those events. By aligning the mind with universal reason (Logos) and recognizing what lies within our control versus what does not, a person achieves unshakeable inner tranquility (Ataraxia)."
+        },
+        {
+          "name": "Socrates",
+          "era_or_school": "Classical Greek Philosophy (470 – 399 BC)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "core_idea": "The unexamined life is not worth living; virtue is rooted in true knowledge.",
+          "key_quote": "I know that I know nothing.",
+          "detailed_summary": "Socrates revolutionized philosophy by shifting inquiry from cosmology to human ethics and self-knowledge. Through dialectic cross-examination (the Socratic Method), he demonstrated that most unexamined beliefs are built upon flawed assumptions.\n\nSocrates maintained that moral failing stems from ignorance rather than malice. To seek virtue, one must constantly interrogate their own assumptions, question societal orthodoxy, and embrace intellectual humility."
+        },
+        {
+          "name": "René Descartes",
+          "era_or_school": "Early Modern Rationalism (1596 – 1650)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "core_idea": "Methodological doubt as the foundation of certainty and rational inquiry.",
+          "key_quote": "Cogito, ergo sum. (I think, therefore I am.)",
+          "detailed_summary": "Descartes sought an immovable foundation for scientific knowledge by stripping away all beliefs that could possibly be doubted. By systematically doubting his senses, memory, and physical world, he arrived at an undeniable truth: the very act of doubting proves the existence of a thinking mind.\n\nHis rationalist approach established a fundamental division between the mind (res cogitans) and the physical world (res extensa), laying the philosophical framework for modern Western philosophy and scientific inquiry."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "Meditations",
+          "type": "Book",
+          "author_or_director": "Marcus Aurelius",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg",
+          "dimension_tag": "Ethics: Stoic Duty",
+          "short_desc": "Private personal journals of the Roman Emperor reflecting on duty, mortality, and tranquility.",
+          "detailed_summary": "Written while on military campaign along the Danube frontier, 'Meditations' was never intended for publication. It stands as one of the greatest works of spiritual and ethical self-discipline ever written.\n\nAcross twelve books, Aurelius reminds himself to act with justice, abstain from petty grievances, view the cosmos as a single interconnected living entity, and maintain dignity amidst the fleeting nature of mortal existence."
+        },
+        {
+          "title": "The Matrix",
+          "type": "Movie",
+          "author_or_director": "Lana & Lilly Wachowski (1999)",
+          "cover_url": "https://static.wikia.nocookie.net/matrix/images/5/56/The_Matrix_digital_release_cover.jpg/revision/latest?cb=20210908111245",
+          "dimension_tag": "Epistemology: Rationalism vs Senses",
+          "short_desc": "A sci-fi masterpiece exploring Descartes' Evil Demon and Plato's Cave allegory.",
+          "detailed_summary": "'The Matrix' translates classical epistemological dilemmas into modern cinematic lore. Computer hacker Neo discovers that what billions of humans perceive as 1999 reality is actually a neural simulation designed by artificial intelligence.\n\nThe film directly dramatizes Descartes' 'Method of Doubt' and Plato's 'Allegory of the Cave', questioning whether sensory experience can ever provide reliable proof of true reality without rational awakening."
+        },
+        {
+          "title": "The Enchiridion",
+          "type": "Article",
+          "author_or_director": "Epictetus",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Epicteti_Enchiridion_Latin_1728.jpg/440px-Epicteti_Enchiridion_Latin_1728.jpg",
+          "dimension_tag": "Meta-Ethics: Control Dichotomy",
+          "short_desc": "A short ancient handbook detailing the distinction between what we control and what we do not.",
+          "detailed_summary": "'The Enchiridion' (or Handbook) is a short collection of practical Stoic maxims compiled by Arrian, a student of the freed slave and philosopher Epictetus.\n\nIt focuses intensely on the 'Dichotomy of Control': separating things that belong to us (our opinions, desires, and aversions) from things that do not (our body, property, reputation, and public offices), serving as a definitive guide to achieving emotional immunity."
+        }
+      ]
+    },
+    "existential_absurdist": {
+      "archetype_title": "The Meaning Maker",
+      "philosophical_thesis": "The universe is devoid of inherent teleology or objective moral law. Human dignity emerges through heroic revolt: acknowledging the absurd while creating authentic personal meaning.",
+      "radar_scores": {
+        "ethics": 40,
+        "epistemology": 30,
+        "existentialism": 95,
+        "metaphysics": 85,
+        "agency": 90
+      },
+      "matching_philosophers": [
+        {
+          "name": "Albert Camus",
+          "era_or_school": "Absurdism / Existentialism (1913 – 1960)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg",
+          "core_idea": "Living authentically in defiance of the universe's fundamental absurdity.",
+          "key_quote": "In the midst of winter, I found there was, within me, an invincible summer.",
+          "detailed_summary": "Albert Camus defined 'the Absurd' as the fundamental conflict between the human desire for innate meaning and the cold, silent universe that refuses to provide it.\n\nRather than turning to physical suicide or 'philosophical suicide' (submitting to religious dogmas), Camus advocated for living fully, passionately, and authentically in defiance of meaninglessness. He immortalized this stance through the figure of Sisyphus."
+        },
+        {
+          "name": "Friedrich Nietzsche",
+          "era_or_school": "Existentialism / Perspectivism (1844 – 1900)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche1879.jpg/480px-Nietzsche1879.jpg",
+          "core_idea": "Re-evaluation of all values, Amor Fati, and the Will to Power.",
+          "key_quote": "He who has a why to live can bear almost any how.",
+          "detailed_summary": "Nietzsche diagnosed the spiritual crisis of modern civilization resulting from the decline of traditional religious frameworks. He challenged inherited moral systems, advocating instead for individuals to forge their own values.\n\nThrough concepts like 'Amor Fati' (love of fate) and the 'Übermensch', Nietzsche urged human beings to affirm life completely—including its suffering—and to live as self-determining creators."
+        },
+        {
+          "name": "Jean-Paul Sartre",
+          "era_or_school": "French Existentialism (1905 – 1980)",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Jean-Paul_Sartre_1950.jpg/480px-Jean-Paul_Sartre_1950.jpg",
+          "core_idea": "Existence precedes essence; humans are condemned to be free.",
+          "key_quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+          "detailed_summary": "Sartre formulated the foundational principle of atheistic existentialism: 'existence precedes essence'. Unlike an artifact designed for a specific purpose, humans exist first, encounter themselves in the world, and only afterwards define who they are through their choices.\n\nSartre argued that denying this radical freedom constitutes 'bad faith' (mauvaise foi). We bear total, inescapable responsibility for constructing our own identity and values."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "The Stranger",
+          "type": "Book",
+          "author_or_director": "Albert Camus",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/L%27%C3%89tranger_-_Albert_Camus.jpg/440px-L%27%C3%89tranger_-_Albert_Camus.jpg",
+          "dimension_tag": "Existential Stance: Absurdism",
+          "short_desc": "A landmark novel exploring detachment, truth, and societal hypocrisy through Meursault.",
+          "detailed_summary": "'The Stranger' tells the story of Meursault, an indifferent French Algerian who refuses to conform to social expectations or simulate emotional pretense.\n\nAfter shooting an Arab man on a sun-drenched beach, Meursault is placed on trial not merely for the killing, but because he failed to cry at his mother's funeral. The novel serves as a powerful exploration of the absurd and human honesty."
+        },
+        {
+          "title": "Blade Runner 2049",
+          "type": "Movie",
+          "author_or_director": "Denis Villeneuve (2017)",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png",
+          "dimension_tag": "Agency & Identity: Self-Creation",
+          "short_desc": "A masterpiece on artificial consciousness, manufactured memories, and choosing self-worth.",
+          "detailed_summary": "In a dystopian future, Officer K—a bioengineered replicant—discovers evidence that leads him to believe he might be a miraculous, naturally born child rather than a manufactured product.\n\nWhen he ultimately learns he is not the chosen child, Officer K must confront true existential choice: whether to remain an obedient tool or to sacrifice himself for a cause he believes in, proving that authenticity is claimed through action."
+        },
+        {
+          "title": "The Myth of Sisyphus",
+          "type": "Article",
+          "author_or_director": "Albert Camus",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Le_Mythe_de_Sisyphe.jpg/440px-Le_Mythe_de_Sisyphe.jpg",
+          "dimension_tag": "Philosophy of Meaning: Revolt",
+          "short_desc": "A seminal philosophical essay proposing heroic acceptance of endless, repetitive struggle.",
+          "detailed_summary": "'The Myth of Sisyphus' introduces Camus' philosophy of the Absurd. He analyzes Sisyphus, who was condemned by the gods to roll a massive boulder up a mountain for eternity, only to watch it roll back down every time it reaches the peak.\n\nCamus concludes that Sisyphus' conscious awareness of his plight transforms his punishment into victory: 'One must imagine Sisyphus happy.'"
+        }
+      ]
+    }
+  }
+}

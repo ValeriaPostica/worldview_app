@@ -2,7 +2,7 @@ import { Brain, BookOpen, Bookmark, Sparkles } from 'lucide-react';
 
 export default function Header({ tab, setTab }) {
   return (
-    <header className="max-w-3xl w-full mx-auto relative z-10 py-2 border-b border-[#5e4d2a]/30">
+    <header className="w-full mx-auto relative z-10 py-3 border-b border-[#5e4d2a]/30">
       <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
         <div className="flex items-center gap-2">
           <div className="brand-mark"><Brain className="w-4 h-4" /></div>

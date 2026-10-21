@@ -124,7 +124,7 @@
           "title": "The Matrix",
           "type": "Movie",
           "author_or_director": "Lana & Lilly Wachowski (1999)",
-          "cover_url": "https://static.wikia.nocookie.net/matrix/images/5/56/The_Matrix_digital_release_cover.jpg/revision/latest?cb=20210908111245",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
           "dimension_tag": "Epistemology: Rationalism vs Senses",
           "short_desc": "A sci-fi masterpiece exploring Descartes' Evil Demon and Plato's Cave allegory.",
           "detailed_summary": "'The Matrix' translates classical epistemological dilemmas into modern cinematic lore. Computer hacker Neo discovers that what billions of humans perceive as 1999 reality is actually a neural simulation designed by artificial intelligence.\n\nThe film directly dramatizes Descartes' 'Method of Doubt' and Plato's 'Allegory of the Cave', questioning whether sensory experience can ever provide reliable proof of true reality without rational awakening."
@@ -133,7 +133,7 @@
           "title": "The Enchiridion",
           "type": "Article",
           "author_or_director": "Epictetus",
-          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Epicteti_Enchiridion_Latin_1728.jpg/440px-Epicteti_Enchiridion_Latin_1728.jpg",
+          "cover_url": "https://m.media-amazon.com/images/I/71ctPisFM4L._AC_UF1000,1000_QL80_.jpg",
           "dimension_tag": "Meta-Ethics: Control Dichotomy",
           "short_desc": "A short ancient handbook detailing the distinction between what we control and what we do not.",
           "detailed_summary": "'The Enchiridion' (or Handbook) is a short collection of practical Stoic maxims compiled by Arrian, a student of the freed slave and philosopher Epictetus.\n\nIt focuses intensely on the 'Dichotomy of Control': separating things that belong to us (our opinions, desires, and aversions) from things that do not (our body, property, reputation, and public offices), serving as a definitive guide to achieving emotional immunity."
@@ -162,7 +162,7 @@
         {
           "name": "Friedrich Nietzsche",
           "era_or_school": "Existentialism / Perspectivism (1844 – 1900)",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche1879.jpg/480px-Nietzsche1879.jpg",
+          "image_url": "https://www.belcanto.ru/media/images/persons/nietzsche.jpg",
           "core_idea": "Re-evaluation of all values, Amor Fati, and the Will to Power.",
           "key_quote": "He who has a why to live can bear almost any how.",
           "detailed_summary": "Nietzsche diagnosed the spiritual crisis of modern civilization resulting from the decline of traditional religious frameworks. He challenged inherited moral systems, advocating instead for individuals to forge their own values.\n\nThrough concepts like 'Amor Fati' (love of fate) and the 'Übermensch', Nietzsche urged human beings to affirm life completely—including its suffering—and to live as self-determining creators."
@@ -170,7 +170,7 @@
         {
           "name": "Jean-Paul Sartre",
           "era_or_school": "French Existentialism (1905 – 1980)",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Jean-Paul_Sartre_1950.jpg/480px-Jean-Paul_Sartre_1950.jpg",
+          "image_url": "https://iep.utm.edu/wp-content/media/sartre2.jpg",
           "core_idea": "Existence precedes essence; humans are condemned to be free.",
           "key_quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
           "detailed_summary": "Sartre formulated the foundational principle of atheistic existentialism: 'existence precedes essence'. Unlike an artifact designed for a specific purpose, humans exist first, encounter themselves in the world, and only afterwards define who they are through their choices.\n\nSartre argued that denying this radical freedom constitutes 'bad faith' (mauvaise foi). We bear total, inescapable responsibility for constructing our own identity and values."
@@ -181,7 +181,7 @@
           "title": "The Stranger",
           "type": "Book",
           "author_or_director": "Albert Camus",
-          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/L%27%C3%89tranger_-_Albert_Camus.jpg/440px-L%27%C3%89tranger_-_Albert_Camus.jpg",
+          "cover_url": "https://i0.wp.com/thegemsbok.com/wp-content/uploads/2015/11/The-Stranger-book-cover.png?resize=262%2C400",
           "dimension_tag": "Existential Stance: Absurdism",
           "short_desc": "A landmark novel exploring detachment, truth, and societal hypocrisy through Meursault.",
           "detailed_summary": "'The Stranger' tells the story of Meursault, an indifferent French Algerian who refuses to conform to social expectations or simulate emotional pretense.\n\nAfter shooting an Arab man on a sun-drenched beach, Meursault is placed on trial not merely for the killing, but because he failed to cry at his mother's funeral. The novel serves as a powerful exploration of the absurd and human honesty."
@@ -199,7 +199,7 @@
           "title": "The Myth of Sisyphus",
           "type": "Article",
           "author_or_director": "Albert Camus",
-          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Le_Mythe_de_Sisyphe.jpg/440px-Le_Mythe_de_Sisyphe.jpg",
+          "cover_url": "https://m.media-amazon.com/images/I/81abgIkXUHL._UF1000,1000_QL80_.jpg",
           "dimension_tag": "Philosophy of Meaning: Revolt",
           "short_desc": "A seminal philosophical essay proposing heroic acceptance of endless, repetitive struggle.",
           "detailed_summary": "'The Myth of Sisyphus' introduces Camus' philosophy of the Absurd. He analyzes Sisyphus, who was condemned by the gods to roll a massive boulder up a mountain for eternity, only to watch it roll back down every time it reaches the peak.\n\nCamus concludes that Sisyphus' conscious awareness of his plight transforms his punishment into victory: 'One must imagine Sisyphus happy.'"

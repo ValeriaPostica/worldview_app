@@ -2,10 +2,10 @@ import { Flame } from 'lucide-react';
 
 export default function OracleStep2({ questions, choices, handleChoice, setStep, calculateWorldview, aiRecommendations, aiLoading, aiError }) {
   return (
-    <div className="space-y-3.5">
+    <div className="space-y-6">
       <div className="border-b border-[#d4af37]/25 pb-1.5 flex justify-between items-baseline">
-        <div><span className="eyebrow">Step 2 · Your point of view</span><h2 className="text-lg text-[#f3e5ab] font-bold">What feels most true to you?</h2></div>
-        <span className="text-[10px] font-mono text-[#d4af37]/80">2 / 2</span>
+        <div><span className="eyebrow">Step 2 · Your point of view</span><h2 className="text-3xl md:text-4xl text-[#f3e5ab] font-bold">What feels most true to you?</h2></div>
+        <span className="text-sm font-mono text-[#d4af37]/80">2 / 2</span>
       </div>
 
       <p className="step-lead">Pick the answer that feels closest to your honest view right now. You can change your mind later.</p>
@@ -19,25 +19,25 @@ export default function OracleStep2({ questions, choices, handleChoice, setStep,
           </div>
         </div>
       )}
-      <div className="space-y-2.5 max-h-[360px] overflow-y-auto pr-1 custom-scrollbar">
+      <div className="space-y-4 pr-1">
         {questions.map((q) => (
-          <div key={q.id} className="p-3 bg-[#17120d] rounded border border-[#d4af37]/25 space-y-1.5">
-            <span className="text-[8px] font-mono tracking-widest text-[#d4af37] uppercase font-bold">{q.category}</span>
-            <p className="text-xs font-serif italic text-[#f2e8d5]">{q.question}</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div key={q.id} className="p-5 md:p-6 bg-[#17120d] rounded border border-[#d4af37]/25 space-y-3">
+            <span className="text-base md:text-lg font-mono tracking-widest text-[#d4af37] uppercase font-bold">{q.category}</span>
+            <p className="text-[1.625rem] md:text-[2rem] leading-relaxed font-serif italic text-[#f2e8d5]">{q.question}</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <button 
                 onClick={() => handleChoice(q.id, q.a)} 
-                className={`choice-card p-2.5 text-left rounded text-xs border font-serif transition flex flex-col justify-between ${choices[q.id] === q.a ? 'selected bg-[#d4af37]/30 border-[#d4af37] text-[#f7f1e3] font-bold' : 'bg-[#221b14] border-[#382b20] text-[#c2b59b] hover:border-[#d4af37]/50'}`}
+                className={`choice-card p-5 text-left rounded text-2xl md:text-[1.75rem] border font-serif transition flex flex-col justify-between ${choices[q.id] === q.a ? 'selected bg-[#d4af37]/30 border-[#d4af37] text-[#f7f1e3] font-bold' : 'bg-[#221b14] border-[#382b20] text-[#c2b59b] hover:border-[#d4af37]/50'}`}
               >
                 <span>{q.a}</span>
-                <span className="text-[8px] text-[#d4af37] uppercase font-mono mt-1">{q.termA}</span>
+                <span className="text-base text-[#d4af37] uppercase font-mono mt-3">{q.termA}</span>
               </button>
               <button 
                 onClick={() => handleChoice(q.id, q.b)} 
-                className={`choice-card p-2.5 text-left rounded text-xs border font-serif transition flex flex-col justify-between ${choices[q.id] === q.b ? 'selected bg-[#d4af37]/30 border-[#d4af37] text-[#f7f1e3] font-bold' : 'bg-[#221b14] border-[#382b20] text-[#c2b59b] hover:border-[#d4af37]/50'}`}
+                className={`choice-card p-5 text-left rounded text-2xl md:text-[1.75rem] border font-serif transition flex flex-col justify-between ${choices[q.id] === q.b ? 'selected bg-[#d4af37]/30 border-[#d4af37] text-[#f7f1e3] font-bold' : 'bg-[#221b14] border-[#382b20] text-[#c2b59b] hover:border-[#d4af37]/50'}`}
               >
                 <span>{q.b}</span>
-                <span className="text-[8px] text-[#d4af37] uppercase font-mono mt-1">{q.termB}</span>
+                <span className="text-base text-[#d4af37] uppercase font-mono mt-3">{q.termB}</span>
               </button>
             </div>
           </div>
@@ -47,16 +47,16 @@ export default function OracleStep2({ questions, choices, handleChoice, setStep,
       <div className="flex gap-2">
         <button 
           onClick={() => setStep(1)} 
-          className="w-1/4 bg-[#17120d] text-[#c2b59b] text-xs font-bold py-2.5 rounded border border-[#382b20] uppercase hover:bg-[#282018] transition"
+          className="w-1/4 bg-[#17120d] text-[#c2b59b] text-lg font-bold py-5 rounded border border-[#382b20] uppercase hover:bg-[#282018] transition"
         >
           Back
         </button>
         <button 
           onClick={calculateWorldview} 
           disabled={Object.keys(choices).length < 3} 
-          className={`w-3/4 py-2.5 rounded text-xs font-bold uppercase tracking-widest transition flex items-center justify-center gap-1.5 ${Object.keys(choices).length >= 3 ? 'bg-gradient-to-r from-[#d4af37] via-[#e6c875] to-[#b38f46] text-[#14100c]' : 'bg-[#2b2118] text-[#6e614d] border border-[#382b20] cursor-not-allowed'}`}
+          className={`w-3/4 py-5 rounded text-lg font-bold uppercase tracking-widest transition flex items-center justify-center gap-2 ${Object.keys(choices).length >= 3 ? 'bg-gradient-to-r from-[#d4af37] via-[#e6c875] to-[#b38f46] text-[#14100c]' : 'bg-[#2b2118] text-[#6e614d] border border-[#382b20] cursor-not-allowed'}`}
         >
-          <Flame className="w-3.5 h-3.5" /> Show my result
+          <Flame className="w-5 h-5" /> Show my result
         </button>
       </div>
     </div>

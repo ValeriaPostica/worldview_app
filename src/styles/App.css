@@ -4,18 +4,18 @@
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45), inset 0 1px rgba(255,255,255,.04);
 }
 
-.app-intro { padding: 1.3rem .25rem 1.5rem; }
+.app-intro { padding: 1.8rem .25rem 2rem; }
 .app-intro h1 { color: #f7f1e3; font: 600 clamp(2.2rem, 6vw, 3.8rem)/.95 Georgia, serif; letter-spacing: -.04em; margin: .5rem 0 .75rem; }
 .app-intro h1 em { color: #d4af37; font-style: italic; }
-.app-intro p { color: #a99b83; font: 400 .88rem/1.6 system-ui, sans-serif; max-width: 32rem; }
-.intro-kicker, .eyebrow { color: #d4af37; font: 600 .62rem/1.2 ui-monospace, monospace; letter-spacing: .16em; text-transform: uppercase; }
+.app-intro p { color: #a99b83; font: 400 1.2rem/1.7 system-ui, sans-serif; max-width: 56rem; }
+.intro-kicker, .eyebrow { color: #d4af37; font: 600 1rem/1.4 ui-monospace, monospace; letter-spacing: .16em; text-transform: uppercase; }
 .pulse-dot { display: inline-block; width: 6px; height: 6px; margin-right: 7px; border-radius: 50%; background: #8bc48c; box-shadow: 0 0 0 4px rgba(139,196,140,.12); }
 .brand-mark { display: grid; place-items: center; width: 30px; height: 30px; color: #d4af37; border: 1px solid rgba(212,175,55,.5); border-radius: 9px; transform: rotate(-8deg); }
 .brand-subtitle { color: #81745f; font: 500 .52rem ui-monospace, monospace; letter-spacing: .09em; text-transform: uppercase; }
 .brand-mark svg { transform: rotate(8deg); }
 .app-nav button { min-height: 38px; }
 .app-nav button svg { display: inline; vertical-align: -2px; margin-right: 4px; }
-.step-lead { color: #a99b83; font: .78rem/1.55 system-ui, sans-serif; max-width: 34rem; }
+.step-lead { color: #a99b83; font: 1.4rem/1.65 system-ui, sans-serif; max-width: 64rem; }
 .field { border-radius: 8px 8px 0 0; transition: background .2s, box-shadow .2s; }
 .field:focus { background: #21180f; box-shadow: 0 4px 18px rgba(212,175,55,.08); }
 .choice-card { min-height: 86px; }
@@ -26,6 +26,7 @@
 .folio-stats strong { color: #f3e5ab; font: 1.25rem Georgia, serif; }
 .folio-stats span { color: #857762; font: .55rem ui-monospace, monospace; text-transform: uppercase; letter-spacing: .08em; }
 .section-label { display: flex; align-items: center; gap: .4rem; color: #f3e5ab; font: 700 .85rem Georgia, serif; border-bottom: 1px solid rgba(212,175,55,.2); padding-bottom: .4rem; }
+.result-section-title { font-size: 1.5rem; line-height: 1.35; }
 .empty-note { color: #857762; font: italic .75rem/1.5 Georgia, serif; }
 .bookmark-row { display: flex; align-items: center; justify-content: space-between; gap: .75rem; width: 100%; text-align: left; padding: .7rem; color: #d4af37; border: 1px solid rgba(212,175,55,.18); border-radius: 9px; background: #17120d; transition: transform .2s, border-color .2s; }
 .bookmark-row:hover { transform: translateY(-2px); border-color: rgba(212,175,55,.55); }
@@ -85,13 +86,14 @@
 @media (max-width: 640px) {
   .golden-border-frame { inset: 7px; }
   .app-intro { padding-top: .75rem; }
-  .parchment-container { padding: 1.15rem !important; }
+  .parchment-container { padding: 1.25rem !important; }
   .app-intro h1 { font-size: 2.55rem; }
-  .app-intro p { font-size: .82rem; }
+  .app-intro p { font-size: 1.05rem; }
+  .result-section-title { font-size: 1.25rem; }
   .app-nav { width: 100%; justify-content: space-between; gap: .25rem !important; }
   .app-nav button { flex: 1; padding: .45rem .25rem; font-size: .61rem; letter-spacing: .08em; }
   .parchment-container { min-height: calc(100vh - 215px); border-radius: 16px; }
-  .choice-card { min-height: 96px; padding: .85rem !important; }
+  .choice-card { min-height: 120px; padding: 1rem !important; font-size: 1.5rem !important; }
   .folio-stats div { padding: .6rem .45rem; }
   .folio-stats strong { font-size: 1.1rem; }
   .folio-stats span { font-size: .48rem; letter-spacing: .04em; }

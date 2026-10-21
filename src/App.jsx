@@ -132,12 +132,12 @@ export default function App() {
 
       <Header tab={tab} setTab={setTab} />
 
-      <main className="max-w-3xl w-full mx-auto my-4 flex-grow relative z-10">
+      <main className="w-full mx-auto my-4 flex-grow relative z-10">
         <div className="app-intro">
           <h1>Understand your <em>patterns.</em></h1>
           <p>Five questions. One philosophical mirror. Follow your curiosities and leave with a worldview worth questioning.</p>
         </div>
-        <div className="parchment-container rounded p-4 md:p-8 relative min-h-[500px] text-[#f2e8d5] flex flex-col justify-between">
+        <div className="parchment-container w-full lg:w-[96%] lg:mx-auto rounded p-5 md:p-10 relative min-h-[600px] text-[#f2e8d5] flex flex-col justify-between">
           
           {tab === 'oracle' && (
             <>

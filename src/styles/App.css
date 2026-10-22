@@ -4,6 +4,22 @@
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45), inset 0 1px rgba(255,255,255,.04);
 }
 
+*, *::before, *::after { box-sizing: border-box; }
+html { overflow-x: hidden; }
+body { min-width: 320px; overflow-x: hidden; }
+.min-h-screen { min-height: 100dvh; }
+button, input, textarea { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+img { max-width: 100%; }
+.app-intro, main, header, footer { max-width: 1440px; }
+main { padding-inline: clamp(.25rem, 2vw, 1.5rem); }
+.parchment-container { max-width: 1380px; margin-inline: auto; }
+.parchment-container > * { min-width: 0; }
+.app-nav { flex-wrap: wrap; }
+.app-nav button { white-space: nowrap; }
+.choice-card, .ai-result-card, .bookmark-row { overflow-wrap: anywhere; }
+.ai-chat { max-width: calc(100vw - 2rem); }
+
 .app-intro { padding: 1.8rem .25rem 2rem; }
 .app-intro h1 { color: #f7f1e3; font: 600 clamp(2.2rem, 6vw, 3.8rem)/.95 Georgia, serif; letter-spacing: -.04em; margin: .5rem 0 .75rem; }
 .app-intro h1 em { color: #d4af37; font-style: italic; }
@@ -85,13 +101,30 @@
 
 @media (max-width: 640px) {
   .golden-border-frame { inset: 7px; }
-  .app-intro { padding-top: .75rem; }
-  .parchment-container { padding: 1.25rem !important; }
-  .app-intro h1 { font-size: 2.55rem; }
-  .app-intro p { font-size: 1.05rem; }
+  .app-intro { padding: .75rem .1rem 1.25rem; }
+  main { padding-inline: 0; }
+  .parchment-container { padding: 1rem !important; margin-inline: 0; border-radius: 14px; }
+  .app-intro h1 { font-size: clamp(2rem, 11vw, 2.55rem); line-height: 1; }
+  .app-intro p { font-size: 1rem; line-height: 1.5; }
+  .eyebrow, .intro-kicker { font-size: .72rem; letter-spacing: .1em; }
+  .step-lead { font-size: 1.05rem; line-height: 1.5; }
+  .parchment-container { width: 100%; margin: .5rem 0 1rem; }
+  .parchment-container h2 { font-size: clamp(1.6rem, 8vw, 2.2rem); line-height: 1.1; }
+  .parchment-container p { overflow-wrap: anywhere; }
+  .field { font-size: 1rem !important; padding: .8rem .7rem !important; }
+  .choice-card { min-height: 0; padding: 1rem !important; font-size: 1.15rem !important; line-height: 1.35; }
+  .result-section-title { font-size: 1.1rem; }
+  #sacred-dossier { gap: 1.5rem; }
+  #sacred-dossier .text-2xl { font-size: 1.25rem; line-height: 1.45; }
+  #sacred-dossier .text-3xl { font-size: 1.65rem; line-height: 1.25; }
+  #sacred-dossier .text-4xl, #sacred-dossier .text-5xl { font-size: 2rem; line-height: 1.05; }
+  #sacred-dossier .text-xl { font-size: 1.15rem; }
+  #sacred-dossier .text-lg { font-size: 1rem; }
+  #sacred-dossier .grid { min-width: 0; }
   .result-section-title { font-size: 1.25rem; }
   .app-nav { width: 100%; justify-content: space-between; gap: .25rem !important; }
   .app-nav button { flex: 1; padding: .45rem .25rem; font-size: .61rem; letter-spacing: .08em; }
+  main { padding-bottom: 4.5rem; }
   .parchment-container { min-height: calc(100vh - 215px); border-radius: 16px; }
   .choice-card { min-height: 120px; padding: 1rem !important; font-size: 1.5rem !important; }
   .folio-stats div { padding: .6rem .45rem; }
@@ -99,10 +132,29 @@
   .folio-stats span { font-size: .48rem; letter-spacing: .04em; }
   #sacred-dossier { max-height: none; overflow: visible; }
   #sacred-dossier > div:first-child { position: sticky; top: 0; z-index: 2; padding-top: .2rem; background: #21180f; }
-  .ai-chat { right: 1rem; bottom: 1rem; }
-  .ai-chat-panel { width: calc(100vw - 2rem); }
+  .ai-chat { right: .75rem; bottom: max(.75rem, env(safe-area-inset-bottom)); max-width: calc(100vw - 1.5rem); }
+  .ai-chat-launcher { padding: .7rem .85rem; }
+  .ai-chat-panel { width: calc(100vw - 1.5rem); max-height: calc(100dvh - 1.5rem); overflow-y: auto; }
   .ai-chat-messages { max-height: 42vh; }
   .ai-recommendation-list { grid-template-columns: 1fr; }
+  .ai-chat-header strong { font-size: .82rem; }
+  .ai-chat-starters button { font-size: .68rem; padding: .5rem .6rem; }
+  .ai-message { max-width: 96%; font-size: .8rem; }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  main { padding-inline: .75rem; }
+  .parchment-container { width: 100% !important; padding: 2rem !important; }
+  .app-intro h1 { font-size: clamp(2.8rem, 6vw, 4rem); }
+  .choice-card { font-size: 1.35rem !important; line-height: 1.35; }
+  #sacred-dossier .grid.sm\:grid-cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 1025px) {
+  .app-intro { padding-inline: 1rem; }
+  .parchment-container { padding: clamp(2rem, 4vw, 4rem) !important; }
+  #sacred-dossier > .text-center { max-width: 980px; margin-inline: auto; }
+  #sacred-dossier > .p-3 { max-width: 760px; margin-inline: auto; width: 100%; }
 }
 
 .custom-scrollbar::-webkit-scrollbar {

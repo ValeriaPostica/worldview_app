@@ -18,61 +18,154 @@
   ],
   "questions": [
     {
-      "id": "ethics",
-      "category": "How you make decisions",
-      "question": "Where rests the ultimate weight of moral judgment?",
-      "a": "In universal duties, intent, and inviolable principles",
-      "b": "In real-world consequences and net human benefit",
-      "termA": "Deontology (Kantian)",
-      "termB": "Utilitarianism (Mill)",
-      "valA": "deontology",
-      "valB": "utilitarianism"
+      "id": "creator",
+      "category": "What do you believe about the universe?",
+      "question": "Which idea feels closest to your view?",
+      "options": [
+        { "text": "A personal God created the world and cares what people do.", "tags": ["monotheism"] },
+        { "text": "Many gods or spirits influence different parts of life.", "tags": ["polytheism"] },
+        { "text": "The universe itself is divine or contains the divine.", "tags": ["pantheism"] },
+        { "text": "A creator started the universe but does not intervene.", "tags": ["deism"] },
+        { "text": "Nature and physical laws are all that exist.", "tags": ["naturalism"] }
+      ]
     },
     {
-      "id": "epistemology",
-      "category": "How you learn",
-      "question": "What is the primary foundation of human knowledge?",
-      "a": "Pure logic, mathematical reason, and innate deduction",
-      "b": "Sensory observation, trial, and empirical evidence",
-      "termA": "Rationalism (Descartes)",
-      "termB": "Empiricism (Hume)",
-      "valA": "rationalism",
-      "valB": "empiricism"
+      "id": "meaning",
+      "category": "What makes life meaningful?",
+      "question": "Where do you think life's purpose comes from?",
+      "options": [
+        { "text": "It comes from God or a spiritual purpose.", "tags": ["monotheism", "pantheism"] },
+        { "text": "It is built into nature or the order of the universe.", "tags": ["deism", "pantheism"] },
+        { "text": "People create their own meaning through their choices.", "tags": ["existentialism"] },
+        { "text": "There is no built-in meaning, and that is simply a fact.", "tags": ["nihilism"] }
+      ]
     },
     {
-      "id": "existentialism",
-      "category": "What gives life meaning",
-      "question": "What is the true origin of human meaning?",
-      "a": "We actively construct our own purpose in an indifferent cosmos",
-      "b": "Purpose is inherent in the order of nature waiting to be revealed",
-      "termA": "Existentialism (Sartre)",
-      "termB": "Teleology (Aristotle)",
-      "valA": "existentialism",
-      "valB": "teleology"
+      "id": "knowledge",
+      "category": "How do you decide what is true?",
+      "question": "What should we trust most when we disagree?",
+      "options": [
+        { "text": "Evidence we can observe, test, and check.", "tags": ["naturalism"] },
+        { "text": "Reason, reflection, and spiritual experience.", "tags": ["monotheism", "pantheism", "deism"] },
+        { "text": "What a community, culture, or tradition has learned.", "tags": ["polytheism", "postmodernism"] }
+      ]
     },
     {
-      "id": "metaphysics",
-      "category": "What reality is made of",
-      "question": "What constitutes the ultimate nature of reality?",
-      "a": "Material substances bound by eternal physical law",
-      "b": "Consciousness, ideas, or non-material spiritual essence",
-      "termA": "Physicalism / Materialism",
-      "termB": "Idealism / Dualism",
-      "valA": "physicalism",
-      "valB": "idealism"
+      "id": "morality",
+      "category": "How do you decide what is right?",
+      "question": "Which sounds most like your moral view?",
+      "options": [
+        { "text": "Some actions are right or wrong because God says so.", "tags": ["monotheism"] },
+        { "text": "What matters most is reducing harm and helping people.", "tags": ["naturalism", "existentialism"] },
+        { "text": "Different cultures can have different valid values.", "tags": ["postmodernism"] },
+        { "text": "Living in balance with nature and other beings matters most.", "tags": ["pantheism", "polytheism"] }
+      ]
     },
     {
-      "id": "agency",
-      "category": "How much choice you have",
-      "question": "How operates the wheel of human choice?",
-      "a": "All choices are predetermined by prior physical states",
-      "b": "Humans possess genuine autonomous free agency",
-      "termA": "Hard Determinism",
-      "termB": "Libertarian Agency",
-      "valA": "determinism",
-      "valB": "freewill"
+      "id": "society",
+      "category": "How do you see society?",
+      "question": "Which statement feels most familiar?",
+      "options": [
+        { "text": "Shared religious teachings give society a strong foundation.", "tags": ["monotheism", "polytheism"] },
+        { "text": "People should be free to make their own values and lives.", "tags": ["existentialism", "naturalism"] },
+        { "text": "Ideas about truth and normal behaviour are shaped by power and culture.", "tags": ["postmodernism"] }
+      ]
+    },
+    {
+      "id": "spirituality",
+      "category": "What is your relationship with spirituality?",
+      "question": "Which description fits you best?",
+      "options": [
+        { "text": "I believe in one God and a relationship with that God.", "tags": ["monotheism"] },
+        { "text": "I connect with several gods, spirits, or sacred traditions.", "tags": ["polytheism"] },
+        { "text": "I feel that everything is connected and part of one sacred reality.", "tags": ["pantheism"] },
+        { "text": "I do not believe in anything beyond the physical world.", "tags": ["naturalism"] },
+        { "text": "I am unsure, but I do not think we can know for certain.", "tags": ["existentialism", "postmodernism"] }
+      ]
+    },
+    {
+      "id": "certainty",
+      "category": "How certain are you?",
+      "question": "What best describes your attitude toward big answers?",
+      "options": [
+        { "text": "Some truths are universal and do not depend on opinion.", "tags": ["monotheism", "deism", "naturalism"] },
+        { "text": "There may be many truths, depending on the person or culture.", "tags": ["postmodernism"] },
+        { "text": "We may never find a final answer, so we must choose how to live.", "tags": ["existentialism", "nihilism"] }
+      ]
     }
   ],
+  "worldviewProfiles": {
+    "monotheism": {
+      "title": "Monotheism",
+      "summary": "You are closest to belief in one personal God who created the universe and gives life moral direction.",
+      "personalDescription": "You believe that one personal God created the universe and that life has a moral direction. Often you look to faith, prayer, religious teaching, or divine purpose when you think about right and wrong.",
+      "examples": "Christianity, Islam, Judaism",
+      "religion": "Christianity, Islam, or Judaism",
+      "population": "About 54%–57% (4.3–4.5 billion people)",
+      "populationNote": "Includes practicing and cultural adherents of Christianity, Islam, and Judaism. These figures describe affiliation, not the exact strength of a person's belief.",
+      "scores": { "creator": 95, "meaning": 90, "knowledge": 75, "morality": 95, "society": 80, "spirituality": 95, "certainty": 85 }
+    },
+    "polytheism": {
+      "title": "Polytheism / Henotheism",
+      "summary": "You are closest to a world where several gods, spirits, or sacred beings shape different parts of reality.",
+      "personalDescription": "You believe that reality can include several gods, spirits, or sacred powers, each connected with different parts of life. Often you see tradition, ritual, nature, and local community as important ways of staying connected to the sacred.",
+      "examples": "Historical Greek and Norse religions, Shinto, and folk traditions",
+      "religion": "Shinto, folk and Indigenous religions, or traditional African religions",
+      "population": "About 4%–5% (320–400 million people)",
+      "populationNote": "Many people combine folk or local traditions with another religion, so this category overlaps with other estimates.",
+      "scores": { "creator": 80, "meaning": 70, "knowledge": 70, "morality": 75, "society": 80, "spirituality": 95, "certainty": 65 }
+    },
+    "pantheism": {
+      "title": "Pantheism & Panentheism",
+      "summary": "You are closest to the idea that reality is divine, or that the divine is present throughout and beyond the universe.",
+      "personalDescription": "You believe that everything is connected to something sacred, or that the divine is present throughout the universe and perhaps beyond it. Often you find meaning in harmony, nature, compassion, and a sense of oneness rather than in strict separation between the spiritual and physical worlds.",
+      "examples": "Advaita Vedanta, Taoism, Spinozism, and some forms of Stoicism",
+      "religion": "Hinduism, Buddhism, or Taoism",
+      "population": "About 15%–18% (1.2–1.4 billion people)",
+      "populationNote": "This is an estimate based on monistic and non-theistic currents within Hinduism, Buddhism, Taoism, and spiritual-but-not-religious communities.",
+      "scores": { "creator": 85, "meaning": 90, "knowledge": 80, "morality": 85, "society": 65, "spirituality": 95, "certainty": 75 }
+    },
+    "naturalism": {
+      "title": "Naturalism & Physicalism",
+      "summary": "You are closest to the view that reality is made of nature, matter, energy, and physical laws, with knowledge grounded in evidence.",
+      "personalDescription": "You believe that nature, matter, energy, and physical laws are enough to explain reality. Often you trust evidence, testing, and clear reasoning, and you may build meaning through human relationships and shared wellbeing rather than religious belief.",
+      "examples": "Scientific realism, atheism, and secular humanism",
+      "religion": "Atheism or secular humanism",
+      "population": "About 15%–20% (1.2–1.6 billion people)",
+      "populationNote": "This estimate maps closely to the global unaffiliated population. Not everyone in that group is a committed philosophical naturalist.",
+      "scores": { "creator": 90, "meaning": 65, "knowledge": 95, "morality": 80, "society": 75, "spirituality": 90, "certainty": 80 }
+    },
+    "deism": {
+      "title": "Deism",
+      "summary": "You are closest to belief in a creator who set the universe in motion but does not normally intervene in it.",
+      "personalDescription": "You believe that a creator or higher intelligence may have started the universe, but does not normally intervene through miracles or organized revelation. Often you value reason, natural order, and personal conscience more than religious institutions.",
+      "examples": "Some Enlightenment thinkers, including Voltaire and Thomas Jefferson",
+      "religion": "Deism (a spiritual belief rather than an organized religion)",
+      "population": "About 2%–4% (160–320 million people)",
+      "populationNote": "Deism is rarely offered as its own option in population surveys, so this is an approximate estimate.",
+      "scores": { "creator": 90, "meaning": 75, "knowledge": 85, "morality": 70, "society": 55, "spirituality": 75, "certainty": 80 }
+    },
+    "existentialism": {
+      "title": "Existentialism & Nihilism",
+      "summary": "You are closest to the view that the universe does not hand us a guaranteed purpose, so people must face uncertainty and decide how to live.",
+      "personalDescription": "You believe that the universe may not provide a ready-made purpose, so people have to face uncertainty and decide how to live. Often you care about personal freedom, honesty, responsibility, and creating meaning through your own choices.",
+      "examples": "Sartre, Camus, and Nietzsche",
+      "religion": "Atheism or secular humanism",
+      "population": "About 5%–10% (400–800 million people)",
+      "populationNote": "This is a broad estimate of people who see meaning as personal, created, uncertain, or absent; it is not a standard survey category.",
+      "scores": { "creator": 75, "meaning": 95, "knowledge": 70, "morality": 80, "society": 85, "spirituality": 80, "certainty": 95 }
+    },
+    "postmodernism": {
+      "title": "Postmodernism & Relativism",
+      "summary": "You are closest to the view that ideas about truth are shaped by language, culture, history, and power rather than one universal story.",
+      "personalDescription": "You believe that ideas about truth, identity, and normal behaviour are shaped by language, culture, history, and power. Often you question universal explanations and pay attention to whose voice is included, excluded, or treated as authoritative.",
+      "examples": "Contemporary social and critical theory",
+      "religion": "Atheism or secular humanism",
+      "population": "About 3%–7% (240–560 million people)",
+      "populationNote": "This is an intellectual and cultural framework rather than a standard religious identity, so the estimate is approximate.",
+      "scores": { "creator": 65, "meaning": 75, "knowledge": 90, "morality": 90, "society": 95, "spirituality": 60, "certainty": 95 }
+    }
+  },
   "archetypes": {
     "stoic_rationalist": {
       "archetype_title": "The Grounded Thinker",

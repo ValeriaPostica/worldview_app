@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Chart as ChartJS,
   RadialLinearScale,
@@ -26,7 +26,7 @@ import OracleStep4 from './components/OracleStep4';
 import Dashboard from './components/Dashboard';
 import Library from './components/Library';
 import GeminiChat from './components/GeminiChat';
-import { getPersonalizedRecommendations, isGeminiConfigured } from './services/gemini';
+import { getLocalRecommendations, getPersonalizedRecommendations, isGeminiConfigured } from './services/gemini';
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
 
@@ -54,8 +54,12 @@ export default function App() {
   });
   const [activeModal, setActiveModal] = useState(null);
   const [aiRecommendations, setAiRecommendations] = useState([]);
-  const [aiLoading, setAiLoading] = useState(false);
-  const [aiError, setAiError] = useState('');
+
+  useEffect(() => {
+    if (step === 4 && result) {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    }
+  }, [step, result]);
 
   const handleChoice = (qId, option) => {
     setChoices((prev) => ({ ...prev, [qId]: option }));
@@ -63,15 +67,17 @@ export default function App() {
 
   const continueToQuestions = async () => {
     setStep(2);
-    if (!isGeminiConfigured || (!media.books && !media.movies && !media.quote)) return;
-    setAiLoading(true);
-    setAiError('');
+    if (!media.books && !media.movies && !media.quote) return;
+    const localRecommendations = getLocalRecommendations(media);
+    setAiRecommendations(localRecommendations);
+    if (!isGeminiConfigured) return;
     try {
-      setAiRecommendations(await getPersonalizedRecommendations(media));
+      const personalizedRecommendations = await getPersonalizedRecommendations(media);
+      if (personalizedRecommendations.length > 0) {
+        setAiRecommendations(personalizedRecommendations);
+      }
     } catch (error) {
-      setAiError(error.message);
-    } finally {
-      setAiLoading(false);
+      console.warn('Gemini recommendations unavailable; keeping local recommendations.', error);
     }
   };
 
@@ -79,11 +85,46 @@ export default function App() {
     setStep(3);
 
     setTimeout(() => {
-      const existentialSignals = ['existentialism', 'agency', 'metaphysics']
-        .filter((id) => choices[id] === worldviewData.questions.find((question) => question.id === id)?.a).length;
-      const computedResult = existentialSignals >= 2
+      const scores = {};
+      Object.values(choices).flat().forEach((tag) => {
+        const worldviewId = tag === 'nihilism' ? 'existentialism' : tag;
+        scores[worldviewId] = (scores[worldviewId] || 0) + 1;
+      });
+      const totalScore = Object.values(scores).reduce((total, score) => total + score, 0);
+      const rawMatches = Object.entries(worldviewData.worldviewProfiles)
+        .map(([id, profile], index) => ({
+          id,
+          index,
+          title: profile.title,
+          summary: profile.summary,
+          personalDescription: profile.personalDescription,
+          religion: profile.religion,
+          population: profile.population,
+          exactPercentage: totalScore ? ((scores[id] || 0) / totalScore) * 100 : 0,
+        }))
+        .sort((a, b) => b.exactPercentage - a.exactPercentage || a.index - b.index);
+      const roundedTotal = rawMatches.reduce((total, match) => total + Math.floor(match.exactPercentage), 0);
+      const worldviewMatches = rawMatches.map((match, index) => ({
+        ...match,
+        percentage: Math.floor(match.exactPercentage) + (index < 100 - roundedTotal ? 1 : 0),
+      }));
+      const selectedWorldview = worldviewMatches[0].id;
+      const profile = worldviewData.worldviewProfiles[selectedWorldview];
+      const recommendationSource = ['existentialism', 'nihilism', 'postmodernism'].includes(selectedWorldview)
         ? worldviewData.archetypes.existential_absurdist
         : worldviewData.archetypes.stoic_rationalist;
+      const computedResult = {
+        ...profile,
+        worldviewId: selectedWorldview,
+        worldviewMatches,
+        archetype_title: profile.title,
+        philosophical_thesis: profile.personalDescription,
+        radar_scores: profile.scores,
+        matching_philosophers: recommendationSource.matching_philosophers,
+        recommended_media: recommendationSource.recommended_media
+          .filter((item) => ['Book', 'Movie', 'Article'].includes(item.type))
+          .slice(0, 3),
+      };
 
       setResult(computedResult);
       setStep(4);
@@ -135,7 +176,7 @@ export default function App() {
       <main className="w-full mx-auto my-4 flex-grow relative z-10">
         <div className="app-intro">
           <h1>Understand your <em>patterns.</em></h1>
-          <p>Five questions. One philosophical mirror. Follow your curiosities and leave with a worldview worth questioning.</p>
+          <p>Seven simple questions. One philosophical mirror. Find the worldview that best matches your answers.</p>
         </div>
         <div className="parchment-container w-full lg:w-[96%] lg:mx-auto rounded p-5 md:p-10 relative min-h-[600px] text-[#f2e8d5] flex flex-col justify-between">
           
@@ -149,9 +190,6 @@ export default function App() {
                   handleChoice={handleChoice}
                   setStep={setStep}
                   calculateWorldview={calculateWorldview}
-                  aiRecommendations={aiRecommendations}
-                  aiLoading={aiLoading}
-                  aiError={aiError}
                 />
               )}
               {step === 3 && <OracleStep3 />}
@@ -190,7 +228,7 @@ export default function App() {
       </main>
 
       <Modal activeModal={activeModal} setActiveModal={setActiveModal} />
-      {step === 4 && result && <GeminiChat result={result} media={media} />}
+      {step === 4 && result && <GeminiChat result={result} media={media} recommendations={aiRecommendations} />}
 
       <Footer />
     </div>

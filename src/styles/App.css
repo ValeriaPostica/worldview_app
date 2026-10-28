@@ -257,14 +257,15 @@ main { padding-inline: clamp(.25rem, 2vw, 1.5rem); }
   .landing-shell { padding: .5rem !important; }
   .landing-shell main { margin-top: .25rem; margin-bottom: .25rem; }
   .landing-shell footer { display: none; }
-  .landing-page { display: grid; grid-template-rows: 48% 52%; height: 100%; min-height: 0; border-radius: 18px; }
+  .landing-page { display: block; height: 100%; min-height: 0; border-radius: 18px; }
   .landing-page::before { inset: .7rem; border-radius: 14px; }
-  .landing-copy { position: relative; left: auto; top: auto; align-self: center; width: 100%; padding: .5rem 1rem 0; transform: none; }
+  .landing-copy { position: absolute; left: 0; top: 6%; width: 100%; padding: .5rem 1rem 0; transform: none; }
   .landing-copy h1 { margin: .25rem 0 .7rem; font-size: clamp(3.35rem, 17vw, 5rem); line-height: .82; }
   .landing-copy p { max-width: 16rem; margin-inline: auto; font-size: .78rem; line-height: 1.45; }
-  .landing-cta { margin-top: .9rem; padding: .72rem 1rem; }
-  .landing-art { position: relative; right: auto; top: auto; align-self: end; width: 100%; min-height: 0; height: 100%; transform: none; }
-  .statue-frame { width: min(58vw, 220px); height: min(44vh, 280px); }
+  .landing-cta { margin-top: .9rem; padding: .75rem 1.1rem; color: #17120d; background: linear-gradient(110deg, #e6c45f, #fff0ae); border: 1px solid rgba(255,244,190,.75); box-shadow: 0 8px 26px rgba(212,175,55,.38); }
+  .landing-art { position: absolute; right: 0; bottom: 1.5%; top: auto; width: 100%; min-height: 0; height: 48%; transform: none; }
+  .statue-frame { width: min(58vw, 220px); height: min(43vh, 280px); aspect-ratio: 3 / 4; background: radial-gradient(ellipse at center, #51483b 0%, #211d19 62%, #101014 100%); }
+  .statue-frame img { object-fit: contain; object-position: center center; }
   .ring-large { width: 90%; height: 24%; }
   .ring-small { width: 72%; height: 18%; }
   .idea-universe { min-height: 670px; }

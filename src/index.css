@@ -2,9 +2,10 @@
 
 body {
   margin: 0;
-  background-color: #0b0907; /* Super deep ancient dark */
+  background-color: #08090d;
+  background-image: radial-gradient(circle at 50% -10%, rgba(116, 87, 35, .22), transparent 34rem), linear-gradient(135deg, #090a10, #15100c 52%, #08090d);
   color: #2c2013; /* Charcoal-Ink font */
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* Aged Crumpled Parchment Background */

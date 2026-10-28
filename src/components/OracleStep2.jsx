@@ -1,6 +1,7 @@
 import { Flame } from 'lucide-react';
 
-export default function OracleStep2({ questions, choices, handleChoice, setStep, calculateWorldview }) {
+export default function OracleStep2({ questions, choices, handleChoice, setStep, calculateWorldview, includeExtraQuestions, setIncludeExtraQuestions }) {
+  const answered = Object.keys(choices).length;
   return (
     <div className="space-y-6">
       <div className="border-b border-[#d4af37]/25 pb-1.5 flex justify-between items-baseline">
@@ -8,6 +9,10 @@ export default function OracleStep2({ questions, choices, handleChoice, setStep,
         <span className="text-sm font-mono text-[#d4af37]/80">2 / 2</span>
       </div>
 
+      <div className="question-progress" aria-label={`${answered} of ${questions.length} questions answered`}>
+        <div><span>Reflection progress</span><strong>{answered}/{questions.length}</strong></div>
+        <div className="question-progress-track"><span style={{ width: `${(answered / questions.length) * 100}%` }} /></div>
+      </div>
       <p className="step-lead">Choose the answer that feels closest to you. There are no right or wrong answers.</p>
       <div className="space-y-4 pr-1">
         {questions.map((q) => (
@@ -29,6 +34,11 @@ export default function OracleStep2({ questions, choices, handleChoice, setStep,
         ))}
       </div>
 
+      {!includeExtraQuestions && (
+        <button className="more-questions-button" onClick={() => setIncludeExtraQuestions(true)}>
+          I want more questions <span>+3</span>
+        </button>
+      )}
       <div className="flex gap-2">
         <button 
           onClick={() => setStep(1)} 

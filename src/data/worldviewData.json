@@ -22,11 +22,36 @@
       "category": "What do you believe about the universe?",
       "question": "Which idea feels closest to your view?",
       "options": [
-        { "text": "A personal God created the world and cares what people do.", "tags": ["monotheism"] },
-        { "text": "Many gods or spirits influence different parts of life.", "tags": ["polytheism"] },
-        { "text": "The universe itself is divine or contains the divine.", "tags": ["pantheism"] },
-        { "text": "A creator started the universe but does not intervene.", "tags": ["deism"] },
-        { "text": "Nature and physical laws are all that exist.", "tags": ["naturalism"] }
+        {
+          "text": "A personal God created the world and cares what people do.",
+          "tags": [
+            "monotheism"
+          ]
+        },
+        {
+          "text": "Many gods or spirits influence different parts of life.",
+          "tags": [
+            "polytheism"
+          ]
+        },
+        {
+          "text": "The universe itself is divine or contains the divine.",
+          "tags": [
+            "pantheism"
+          ]
+        },
+        {
+          "text": "A creator started the universe but does not intervene.",
+          "tags": [
+            "deism"
+          ]
+        },
+        {
+          "text": "Nature and physical laws are all that exist.",
+          "tags": [
+            "naturalism"
+          ]
+        }
       ]
     },
     {
@@ -34,10 +59,32 @@
       "category": "What makes life meaningful?",
       "question": "Where do you think life's purpose comes from?",
       "options": [
-        { "text": "It comes from God or a spiritual purpose.", "tags": ["monotheism", "pantheism"] },
-        { "text": "It is built into nature or the order of the universe.", "tags": ["deism", "pantheism"] },
-        { "text": "People create their own meaning through their choices.", "tags": ["existentialism"] },
-        { "text": "There is no built-in meaning, and that is simply a fact.", "tags": ["nihilism"] }
+        {
+          "text": "It comes from God or a spiritual purpose.",
+          "tags": [
+            "monotheism",
+            "pantheism"
+          ]
+        },
+        {
+          "text": "It is built into nature or the order of the universe.",
+          "tags": [
+            "deism",
+            "pantheism"
+          ]
+        },
+        {
+          "text": "People create their own meaning through their choices.",
+          "tags": [
+            "existentialism"
+          ]
+        },
+        {
+          "text": "There is no built-in meaning, and that is simply a fact.",
+          "tags": [
+            "nihilism"
+          ]
+        }
       ]
     },
     {
@@ -45,9 +92,27 @@
       "category": "How do you decide what is true?",
       "question": "What should we trust most when we disagree?",
       "options": [
-        { "text": "Evidence we can observe, test, and check.", "tags": ["naturalism"] },
-        { "text": "Reason, reflection, and spiritual experience.", "tags": ["monotheism", "pantheism", "deism"] },
-        { "text": "What a community, culture, or tradition has learned.", "tags": ["polytheism", "postmodernism"] }
+        {
+          "text": "Evidence we can observe, test, and check.",
+          "tags": [
+            "naturalism"
+          ]
+        },
+        {
+          "text": "Reason, reflection, and spiritual experience.",
+          "tags": [
+            "monotheism",
+            "pantheism",
+            "deism"
+          ]
+        },
+        {
+          "text": "What a community, culture, or tradition has learned.",
+          "tags": [
+            "polytheism",
+            "postmodernism"
+          ]
+        }
       ]
     },
     {
@@ -55,10 +120,32 @@
       "category": "How do you decide what is right?",
       "question": "Which sounds most like your moral view?",
       "options": [
-        { "text": "Some actions are right or wrong because God says so.", "tags": ["monotheism"] },
-        { "text": "What matters most is reducing harm and helping people.", "tags": ["naturalism", "existentialism"] },
-        { "text": "Different cultures can have different valid values.", "tags": ["postmodernism"] },
-        { "text": "Living in balance with nature and other beings matters most.", "tags": ["pantheism", "polytheism"] }
+        {
+          "text": "Some actions are right or wrong because God says so.",
+          "tags": [
+            "monotheism"
+          ]
+        },
+        {
+          "text": "What matters most is reducing harm and helping people.",
+          "tags": [
+            "naturalism",
+            "existentialism"
+          ]
+        },
+        {
+          "text": "Different cultures can have different valid values.",
+          "tags": [
+            "postmodernism"
+          ]
+        },
+        {
+          "text": "Living in balance with nature and other beings matters most.",
+          "tags": [
+            "pantheism",
+            "polytheism"
+          ]
+        }
       ]
     },
     {
@@ -66,9 +153,26 @@
       "category": "How do you see society?",
       "question": "Which statement feels most familiar?",
       "options": [
-        { "text": "Shared religious teachings give society a strong foundation.", "tags": ["monotheism", "polytheism"] },
-        { "text": "People should be free to make their own values and lives.", "tags": ["existentialism", "naturalism"] },
-        { "text": "Ideas about truth and normal behaviour are shaped by power and culture.", "tags": ["postmodernism"] }
+        {
+          "text": "Shared religious teachings give society a strong foundation.",
+          "tags": [
+            "monotheism",
+            "polytheism"
+          ]
+        },
+        {
+          "text": "People should be free to make their own values and lives.",
+          "tags": [
+            "existentialism",
+            "naturalism"
+          ]
+        },
+        {
+          "text": "Ideas about truth and normal behaviour are shaped by power and culture.",
+          "tags": [
+            "postmodernism"
+          ]
+        }
       ]
     },
     {
@@ -76,11 +180,37 @@
       "category": "What is your relationship with spirituality?",
       "question": "Which description fits you best?",
       "options": [
-        { "text": "I believe in one God and a relationship with that God.", "tags": ["monotheism"] },
-        { "text": "I connect with several gods, spirits, or sacred traditions.", "tags": ["polytheism"] },
-        { "text": "I feel that everything is connected and part of one sacred reality.", "tags": ["pantheism"] },
-        { "text": "I do not believe in anything beyond the physical world.", "tags": ["naturalism"] },
-        { "text": "I am unsure, but I do not think we can know for certain.", "tags": ["existentialism", "postmodernism"] }
+        {
+          "text": "I believe in one God and a relationship with that God.",
+          "tags": [
+            "monotheism"
+          ]
+        },
+        {
+          "text": "I connect with several gods, spirits, or sacred traditions.",
+          "tags": [
+            "polytheism"
+          ]
+        },
+        {
+          "text": "I feel that everything is connected and part of one sacred reality.",
+          "tags": [
+            "pantheism"
+          ]
+        },
+        {
+          "text": "I do not believe in anything beyond the physical world.",
+          "tags": [
+            "naturalism"
+          ]
+        },
+        {
+          "text": "I am unsure, but I do not think we can know for certain.",
+          "tags": [
+            "existentialism",
+            "postmodernism"
+          ]
+        }
       ]
     },
     {
@@ -88,9 +218,129 @@
       "category": "How certain are you?",
       "question": "What best describes your attitude toward big answers?",
       "options": [
-        { "text": "Some truths are universal and do not depend on opinion.", "tags": ["monotheism", "deism", "naturalism"] },
-        { "text": "There may be many truths, depending on the person or culture.", "tags": ["postmodernism"] },
-        { "text": "We may never find a final answer, so we must choose how to live.", "tags": ["existentialism", "nihilism"] }
+        {
+          "text": "Some truths are universal and do not depend on opinion.",
+          "tags": [
+            "monotheism",
+            "deism",
+            "naturalism"
+          ]
+        },
+        {
+          "text": "There may be many truths, depending on the person or culture.",
+          "tags": [
+            "postmodernism"
+          ]
+        },
+        {
+          "text": "We may never find a final answer, so we must choose how to live.",
+          "tags": [
+            "existentialism",
+            "nihilism"
+          ]
+        }
+      ]
+    }
+  ],
+  "extraQuestions": [
+    {
+      "id": "freedom",
+      "category": "What does freedom mean to you?",
+      "question": "Which statement feels closest to your view of human choice?",
+      "options": [
+        {
+          "text": "Freedom means choosing for yourself, even when life has no clear purpose.",
+          "tags": [
+            "existentialism"
+          ]
+        },
+        {
+          "text": "Freedom means acting on reason rather than impulse.",
+          "tags": [
+            "naturalism",
+            "deism"
+          ]
+        },
+        {
+          "text": "Freedom grows when people follow a higher moral truth.",
+          "tags": [
+            "monotheism",
+            "pantheism"
+          ]
+        },
+        {
+          "text": "Freedom depends on the social structures and language around us.",
+          "tags": [
+            "postmodernism"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "death",
+      "category": "How do you relate to death?",
+      "question": "What response to mortality feels most honest?",
+      "options": [
+        {
+          "text": "It gives life urgency and makes our choices matter.",
+          "tags": [
+            "existentialism"
+          ]
+        },
+        {
+          "text": "It is part of nature and should be met with calm acceptance.",
+          "tags": [
+            "naturalism",
+            "pantheism"
+          ]
+        },
+        {
+          "text": "It points beyond this life toward a larger spiritual order.",
+          "tags": [
+            "monotheism",
+            "deism"
+          ]
+        },
+        {
+          "text": "Different cultures create different meanings around it.",
+          "tags": [
+            "polytheism",
+            "postmodernism"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "category": "What makes a belief trustworthy?",
+      "question": "When an idea feels powerful, what should test it?",
+      "options": [
+        {
+          "text": "Evidence that others can check and repeat.",
+          "tags": [
+            "naturalism"
+          ]
+        },
+        {
+          "text": "Reason that remains consistent under careful questioning.",
+          "tags": [
+            "deism",
+            "monotheism"
+          ]
+        },
+        {
+          "text": "Whether it helps a person live with courage and integrity.",
+          "tags": [
+            "existentialism",
+            "pantheism"
+          ]
+        },
+        {
+          "text": "Attention to who benefits from calling it true.",
+          "tags": [
+            "postmodernism"
+          ]
+        }
       ]
     }
   ],
@@ -103,7 +353,15 @@
       "religion": "Christianity, Islam, or Judaism",
       "population": "About 54%–57% (4.3–4.5 billion people)",
       "populationNote": "Includes practicing and cultural adherents of Christianity, Islam, and Judaism. These figures describe affiliation, not the exact strength of a person's belief.",
-      "scores": { "creator": 95, "meaning": 90, "knowledge": 75, "morality": 95, "society": 80, "spirituality": 95, "certainty": 85 }
+      "scores": {
+        "creator": 95,
+        "meaning": 90,
+        "knowledge": 75,
+        "morality": 95,
+        "society": 80,
+        "spirituality": 95,
+        "certainty": 85
+      }
     },
     "polytheism": {
       "title": "Polytheism / Henotheism",
@@ -113,7 +371,15 @@
       "religion": "Shinto, folk and Indigenous religions, or traditional African religions",
       "population": "About 4%–5% (320–400 million people)",
       "populationNote": "Many people combine folk or local traditions with another religion, so this category overlaps with other estimates.",
-      "scores": { "creator": 80, "meaning": 70, "knowledge": 70, "morality": 75, "society": 80, "spirituality": 95, "certainty": 65 }
+      "scores": {
+        "creator": 80,
+        "meaning": 70,
+        "knowledge": 70,
+        "morality": 75,
+        "society": 80,
+        "spirituality": 95,
+        "certainty": 65
+      }
     },
     "pantheism": {
       "title": "Pantheism & Panentheism",
@@ -123,7 +389,15 @@
       "religion": "Hinduism, Buddhism, or Taoism",
       "population": "About 15%–18% (1.2–1.4 billion people)",
       "populationNote": "This is an estimate based on monistic and non-theistic currents within Hinduism, Buddhism, Taoism, and spiritual-but-not-religious communities.",
-      "scores": { "creator": 85, "meaning": 90, "knowledge": 80, "morality": 85, "society": 65, "spirituality": 95, "certainty": 75 }
+      "scores": {
+        "creator": 85,
+        "meaning": 90,
+        "knowledge": 80,
+        "morality": 85,
+        "society": 65,
+        "spirituality": 95,
+        "certainty": 75
+      }
     },
     "naturalism": {
       "title": "Naturalism & Physicalism",
@@ -133,7 +407,15 @@
       "religion": "Atheism or secular humanism",
       "population": "About 15%–20% (1.2–1.6 billion people)",
       "populationNote": "This estimate maps closely to the global unaffiliated population. Not everyone in that group is a committed philosophical naturalist.",
-      "scores": { "creator": 90, "meaning": 65, "knowledge": 95, "morality": 80, "society": 75, "spirituality": 90, "certainty": 80 }
+      "scores": {
+        "creator": 90,
+        "meaning": 65,
+        "knowledge": 95,
+        "morality": 80,
+        "society": 75,
+        "spirituality": 90,
+        "certainty": 80
+      }
     },
     "deism": {
       "title": "Deism",
@@ -143,7 +425,15 @@
       "religion": "Deism (a spiritual belief rather than an organized religion)",
       "population": "About 2%–4% (160–320 million people)",
       "populationNote": "Deism is rarely offered as its own option in population surveys, so this is an approximate estimate.",
-      "scores": { "creator": 90, "meaning": 75, "knowledge": 85, "morality": 70, "society": 55, "spirituality": 75, "certainty": 80 }
+      "scores": {
+        "creator": 90,
+        "meaning": 75,
+        "knowledge": 85,
+        "morality": 70,
+        "society": 55,
+        "spirituality": 75,
+        "certainty": 80
+      }
     },
     "existentialism": {
       "title": "Existentialism & Nihilism",
@@ -153,7 +443,15 @@
       "religion": "Atheism or secular humanism",
       "population": "About 5%–10% (400–800 million people)",
       "populationNote": "This is a broad estimate of people who see meaning as personal, created, uncertain, or absent; it is not a standard survey category.",
-      "scores": { "creator": 75, "meaning": 95, "knowledge": 70, "morality": 80, "society": 85, "spirituality": 80, "certainty": 95 }
+      "scores": {
+        "creator": 75,
+        "meaning": 95,
+        "knowledge": 70,
+        "morality": 80,
+        "society": 85,
+        "spirituality": 80,
+        "certainty": 95
+      }
     },
     "postmodernism": {
       "title": "Postmodernism & Relativism",
@@ -163,7 +461,15 @@
       "religion": "Atheism or secular humanism",
       "population": "About 3%–7% (240–560 million people)",
       "populationNote": "This is an intellectual and cultural framework rather than a standard religious identity, so the estimate is approximate.",
-      "scores": { "creator": 65, "meaning": 75, "knowledge": 90, "morality": 90, "society": 95, "spirituality": 60, "certainty": 95 }
+      "scores": {
+        "creator": 65,
+        "meaning": 75,
+        "knowledge": 90,
+        "morality": 90,
+        "society": 95,
+        "spirituality": 60,
+        "certainty": 95
+      }
     }
   },
   "archetypes": {
@@ -296,6 +602,1142 @@
           "dimension_tag": "Philosophy of Meaning: Revolt",
           "short_desc": "A seminal philosophical essay proposing heroic acceptance of endless, repetitive struggle.",
           "detailed_summary": "'The Myth of Sisyphus' introduces Camus' philosophy of the Absurd. He analyzes Sisyphus, who was condemned by the gods to roll a massive boulder up a mountain for eternity, only to watch it roll back down every time it reaches the peak.\n\nCamus concludes that Sisyphus' conscious awareness of his plight transforms his punishment into victory: 'One must imagine Sisyphus happy.'"
+        }
+      ]
+    }
+  },
+  "worldviewResources": {
+    "monotheism": {
+      "matching_philosophers": [
+        {
+          "name": "Augustine",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "core_idea": "An important perspective explored through Confessions.",
+          "key_quote": "Explore the central questions raised by Confessions.",
+          "detailed_summary": "Augustine develops a distinctive account of meaning, knowledge, ethics, or society in Confessions. This is a useful starting point for investigating the monotheism worldview."
+        },
+        {
+          "name": "Thomas Aquinas",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "core_idea": "An important perspective explored through Summa Theologiae.",
+          "key_quote": "Explore the central questions raised by Summa Theologiae.",
+          "detailed_summary": "Thomas Aquinas develops a distinctive account of meaning, knowledge, ethics, or society in Summa Theologiae. This is a useful starting point for investigating the monotheism worldview."
+        },
+        {
+          "name": "Maimonides",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "core_idea": "An important perspective explored through Guide for the Perplexed.",
+          "key_quote": "Explore the central questions raised by Guide for the Perplexed.",
+          "detailed_summary": "Maimonides develops a distinctive account of meaning, knowledge, ethics, or society in Guide for the Perplexed. This is a useful starting point for investigating the monotheism worldview."
+        },
+        {
+          "name": "Al-Ghazali",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "core_idea": "An important perspective explored through The Incoherence of the Philosophers.",
+          "key_quote": "Explore the central questions raised by The Incoherence of the Philosophers.",
+          "detailed_summary": "Al-Ghazali develops a distinctive account of meaning, knowledge, ethics, or society in The Incoherence of the Philosophers. This is a useful starting point for investigating the monotheism worldview."
+        },
+        {
+          "name": "Kierkegaard",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "core_idea": "An important perspective explored through Fear and Trembling.",
+          "key_quote": "Explore the central questions raised by Fear and Trembling.",
+          "detailed_summary": "Kierkegaard develops a distinctive account of meaning, knowledge, ethics, or society in Fear and Trembling. This is a useful starting point for investigating the monotheism worldview."
+        },
+        {
+          "name": "Simone Weil",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "core_idea": "An important perspective explored through Gravity and Grace.",
+          "key_quote": "Explore the central questions raised by Gravity and Grace.",
+          "detailed_summary": "Simone Weil develops a distinctive account of meaning, knowledge, ethics, or society in Gravity and Grace. This is a useful starting point for investigating the monotheism worldview."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "Confessions",
+          "type": "Book",
+          "author_or_director": "Augustine",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Monotheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind monotheism.",
+          "detailed_summary": "Confessions is a serious entry point into the ideas associated with Augustine. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Summa Theologiae",
+          "type": "Book",
+          "author_or_director": "Thomas Aquinas",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Monotheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind monotheism.",
+          "detailed_summary": "Summa Theologiae is a serious entry point into the ideas associated with Thomas Aquinas. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Guide for the Perplexed",
+          "type": "Book",
+          "author_or_director": "Maimonides",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Monotheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind monotheism.",
+          "detailed_summary": "Guide for the Perplexed is a serious entry point into the ideas associated with Maimonides. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Incoherence of the Philosophers",
+          "type": "Book",
+          "author_or_director": "Al-Ghazali",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Monotheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind monotheism.",
+          "detailed_summary": "The Incoherence of the Philosophers is a serious entry point into the ideas associated with Al-Ghazali. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Fear and Trembling",
+          "type": "Book",
+          "author_or_director": "Kierkegaard",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Monotheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind monotheism.",
+          "detailed_summary": "Fear and Trembling is a serious entry point into the ideas associated with Kierkegaard. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Gravity and Grace",
+          "type": "Book",
+          "author_or_director": "Simone Weil",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Monotheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind monotheism.",
+          "detailed_summary": "Gravity and Grace is a serious entry point into the ideas associated with Simone Weil. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "A Hidden Life",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Monotheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of monotheism.",
+          "detailed_summary": "A Hidden Life is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Tree of Life",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Monotheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of monotheism.",
+          "detailed_summary": "The Tree of Life is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Silence",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Monotheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of monotheism.",
+          "detailed_summary": "Silence is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Of Gods and Men",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Monotheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of monotheism.",
+          "detailed_summary": "Of Gods and Men is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Two Popes",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Monotheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of monotheism.",
+          "detailed_summary": "The Two Popes is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Chariots of Fire",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Monotheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of monotheism.",
+          "detailed_summary": "Chariots of Fire is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        }
+      ]
+    },
+    "polytheism": {
+      "matching_philosophers": [
+        {
+          "name": "Hesiod",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "core_idea": "An important perspective explored through Theogony.",
+          "key_quote": "Explore the central questions raised by Theogony.",
+          "detailed_summary": "Hesiod develops a distinctive account of meaning, knowledge, ethics, or society in Theogony. This is a useful starting point for investigating the polytheism worldview."
+        },
+        {
+          "name": "Heraclitus",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "core_idea": "An important perspective explored through Fragments.",
+          "key_quote": "Explore the central questions raised by Fragments.",
+          "detailed_summary": "Heraclitus develops a distinctive account of meaning, knowledge, ethics, or society in Fragments. This is a useful starting point for investigating the polytheism worldview."
+        },
+        {
+          "name": "Mircea Eliade",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "core_idea": "An important perspective explored through The Sacred and the Profane.",
+          "key_quote": "Explore the central questions raised by The Sacred and the Profane.",
+          "detailed_summary": "Mircea Eliade develops a distinctive account of meaning, knowledge, ethics, or society in The Sacred and the Profane. This is a useful starting point for investigating the polytheism worldview."
+        },
+        {
+          "name": "Karen Armstrong",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "core_idea": "An important perspective explored through A History of God.",
+          "key_quote": "Explore the central questions raised by A History of God.",
+          "detailed_summary": "Karen Armstrong develops a distinctive account of meaning, knowledge, ethics, or society in A History of God. This is a useful starting point for investigating the polytheism worldview."
+        },
+        {
+          "name": "James Hillman",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "core_idea": "An important perspective explored through The Soul?s Code.",
+          "key_quote": "Explore the central questions raised by The Soul?s Code.",
+          "detailed_summary": "James Hillman develops a distinctive account of meaning, knowledge, ethics, or society in The Soul?s Code. This is a useful starting point for investigating the polytheism worldview."
+        },
+        {
+          "name": "Rene Girard",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "core_idea": "An important perspective explored through Violence and the Sacred.",
+          "key_quote": "Explore the central questions raised by Violence and the Sacred.",
+          "detailed_summary": "Rene Girard develops a distinctive account of meaning, knowledge, ethics, or society in Violence and the Sacred. This is a useful starting point for investigating the polytheism worldview."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "Theogony",
+          "type": "Book",
+          "author_or_director": "Hesiod",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Polytheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind polytheism.",
+          "detailed_summary": "Theogony is a serious entry point into the ideas associated with Hesiod. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Fragments",
+          "type": "Book",
+          "author_or_director": "Heraclitus",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Polytheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind polytheism.",
+          "detailed_summary": "Fragments is a serious entry point into the ideas associated with Heraclitus. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Sacred and the Profane",
+          "type": "Book",
+          "author_or_director": "Mircea Eliade",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Polytheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind polytheism.",
+          "detailed_summary": "The Sacred and the Profane is a serious entry point into the ideas associated with Mircea Eliade. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "A History of God",
+          "type": "Book",
+          "author_or_director": "Karen Armstrong",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Polytheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind polytheism.",
+          "detailed_summary": "A History of God is a serious entry point into the ideas associated with Karen Armstrong. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Soul?s Code",
+          "type": "Book",
+          "author_or_director": "James Hillman",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Polytheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind polytheism.",
+          "detailed_summary": "The Soul?s Code is a serious entry point into the ideas associated with James Hillman. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Violence and the Sacred",
+          "type": "Book",
+          "author_or_director": "Rene Girard",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Polytheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind polytheism.",
+          "detailed_summary": "Violence and the Sacred is a serious entry point into the ideas associated with Rene Girard. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "O Brother, Where Art Thou?",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Polytheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of polytheism.",
+          "detailed_summary": "O Brother, Where Art Thou? is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Green Knight",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Polytheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of polytheism.",
+          "detailed_summary": "The Green Knight is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Northman",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Polytheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of polytheism.",
+          "detailed_summary": "The Northman is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Princess Mononoke",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Polytheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of polytheism.",
+          "detailed_summary": "Princess Mononoke is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Wicker Man",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Polytheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of polytheism.",
+          "detailed_summary": "The Wicker Man is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Song of Bernadette",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Polytheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of polytheism.",
+          "detailed_summary": "The Song of Bernadette is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        }
+      ]
+    },
+    "pantheism": {
+      "matching_philosophers": [
+        {
+          "name": "Spinoza",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "core_idea": "An important perspective explored through Ethics.",
+          "key_quote": "Explore the central questions raised by Ethics.",
+          "detailed_summary": "Spinoza develops a distinctive account of meaning, knowledge, ethics, or society in Ethics. This is a useful starting point for investigating the pantheism worldview."
+        },
+        {
+          "name": "Laozi",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "core_idea": "An important perspective explored through Tao Te Ching.",
+          "key_quote": "Explore the central questions raised by Tao Te Ching.",
+          "detailed_summary": "Laozi develops a distinctive account of meaning, knowledge, ethics, or society in Tao Te Ching. This is a useful starting point for investigating the pantheism worldview."
+        },
+        {
+          "name": "Zhuangzi",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "core_idea": "An important perspective explored through The Complete Works of Zhuangzi.",
+          "key_quote": "Explore the central questions raised by The Complete Works of Zhuangzi.",
+          "detailed_summary": "Zhuangzi develops a distinctive account of meaning, knowledge, ethics, or society in The Complete Works of Zhuangzi. This is a useful starting point for investigating the pantheism worldview."
+        },
+        {
+          "name": "Plotinus",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "core_idea": "An important perspective explored through The Enneads.",
+          "key_quote": "Explore the central questions raised by The Enneads.",
+          "detailed_summary": "Plotinus develops a distinctive account of meaning, knowledge, ethics, or society in The Enneads. This is a useful starting point for investigating the pantheism worldview."
+        },
+        {
+          "name": "Ralph Waldo Emerson",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "core_idea": "An important perspective explored through Nature.",
+          "key_quote": "Explore the central questions raised by Nature.",
+          "detailed_summary": "Ralph Waldo Emerson develops a distinctive account of meaning, knowledge, ethics, or society in Nature. This is a useful starting point for investigating the pantheism worldview."
+        },
+        {
+          "name": "Arne Naess",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "core_idea": "An important perspective explored through Ecology, Community and Lifestyle.",
+          "key_quote": "Explore the central questions raised by Ecology, Community and Lifestyle.",
+          "detailed_summary": "Arne Naess develops a distinctive account of meaning, knowledge, ethics, or society in Ecology, Community and Lifestyle. This is a useful starting point for investigating the pantheism worldview."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "Ethics",
+          "type": "Book",
+          "author_or_director": "Spinoza",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Pantheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind pantheism.",
+          "detailed_summary": "Ethics is a serious entry point into the ideas associated with Spinoza. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Tao Te Ching",
+          "type": "Book",
+          "author_or_director": "Laozi",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Pantheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind pantheism.",
+          "detailed_summary": "Tao Te Ching is a serious entry point into the ideas associated with Laozi. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Complete Works of Zhuangzi",
+          "type": "Book",
+          "author_or_director": "Zhuangzi",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Pantheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind pantheism.",
+          "detailed_summary": "The Complete Works of Zhuangzi is a serious entry point into the ideas associated with Zhuangzi. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Enneads",
+          "type": "Book",
+          "author_or_director": "Plotinus",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Pantheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind pantheism.",
+          "detailed_summary": "The Enneads is a serious entry point into the ideas associated with Plotinus. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Nature",
+          "type": "Book",
+          "author_or_director": "Ralph Waldo Emerson",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Pantheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind pantheism.",
+          "detailed_summary": "Nature is a serious entry point into the ideas associated with Ralph Waldo Emerson. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Ecology, Community and Lifestyle",
+          "type": "Book",
+          "author_or_director": "Arne Naess",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Pantheism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind pantheism.",
+          "detailed_summary": "Ecology, Community and Lifestyle is a serious entry point into the ideas associated with Arne Naess. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Baraka",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Pantheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of pantheism.",
+          "detailed_summary": "Baraka is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Samsara",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Pantheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of pantheism.",
+          "detailed_summary": "Samsara is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Spring, Summer, Fall, Winter... and Spring",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Pantheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of pantheism.",
+          "detailed_summary": "Spring, Summer, Fall, Winter... and Spring is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Into the Wild",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Pantheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of pantheism.",
+          "detailed_summary": "Into the Wild is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The New World",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Pantheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of pantheism.",
+          "detailed_summary": "The New World is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Koyaanisqatsi",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Pantheism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of pantheism.",
+          "detailed_summary": "Koyaanisqatsi is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        }
+      ]
+    },
+    "naturalism": {
+      "matching_philosophers": [
+        {
+          "name": "David Hume",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "core_idea": "An important perspective explored through An Enquiry Concerning Human Understanding.",
+          "key_quote": "Explore the central questions raised by An Enquiry Concerning Human Understanding.",
+          "detailed_summary": "David Hume develops a distinctive account of meaning, knowledge, ethics, or society in An Enquiry Concerning Human Understanding. This is a useful starting point for investigating the naturalism worldview."
+        },
+        {
+          "name": "Bertrand Russell",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "core_idea": "An important perspective explored through Why I Am Not a Christian.",
+          "key_quote": "Explore the central questions raised by Why I Am Not a Christian.",
+          "detailed_summary": "Bertrand Russell develops a distinctive account of meaning, knowledge, ethics, or society in Why I Am Not a Christian. This is a useful starting point for investigating the naturalism worldview."
+        },
+        {
+          "name": "Daniel Dennett",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "core_idea": "An important perspective explored through Consciousness Explained.",
+          "key_quote": "Explore the central questions raised by Consciousness Explained.",
+          "detailed_summary": "Daniel Dennett develops a distinctive account of meaning, knowledge, ethics, or society in Consciousness Explained. This is a useful starting point for investigating the naturalism worldview."
+        },
+        {
+          "name": "Patricia Churchland",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "core_idea": "An important perspective explored through Neurophilosophy.",
+          "key_quote": "Explore the central questions raised by Neurophilosophy.",
+          "detailed_summary": "Patricia Churchland develops a distinctive account of meaning, knowledge, ethics, or society in Neurophilosophy. This is a useful starting point for investigating the naturalism worldview."
+        },
+        {
+          "name": "Peter Singer",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "core_idea": "An important perspective explored through Practical Ethics.",
+          "key_quote": "Explore the central questions raised by Practical Ethics.",
+          "detailed_summary": "Peter Singer develops a distinctive account of meaning, knowledge, ethics, or society in Practical Ethics. This is a useful starting point for investigating the naturalism worldview."
+        },
+        {
+          "name": "Carl Sagan",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "core_idea": "An important perspective explored through The Demon-Haunted World.",
+          "key_quote": "Explore the central questions raised by The Demon-Haunted World.",
+          "detailed_summary": "Carl Sagan develops a distinctive account of meaning, knowledge, ethics, or society in The Demon-Haunted World. This is a useful starting point for investigating the naturalism worldview."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "An Enquiry Concerning Human Understanding",
+          "type": "Book",
+          "author_or_director": "David Hume",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Naturalism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind naturalism.",
+          "detailed_summary": "An Enquiry Concerning Human Understanding is a serious entry point into the ideas associated with David Hume. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Why I Am Not a Christian",
+          "type": "Book",
+          "author_or_director": "Bertrand Russell",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Naturalism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind naturalism.",
+          "detailed_summary": "Why I Am Not a Christian is a serious entry point into the ideas associated with Bertrand Russell. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Consciousness Explained",
+          "type": "Book",
+          "author_or_director": "Daniel Dennett",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Naturalism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind naturalism.",
+          "detailed_summary": "Consciousness Explained is a serious entry point into the ideas associated with Daniel Dennett. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Neurophilosophy",
+          "type": "Book",
+          "author_or_director": "Patricia Churchland",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Naturalism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind naturalism.",
+          "detailed_summary": "Neurophilosophy is a serious entry point into the ideas associated with Patricia Churchland. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Practical Ethics",
+          "type": "Book",
+          "author_or_director": "Peter Singer",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Naturalism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind naturalism.",
+          "detailed_summary": "Practical Ethics is a serious entry point into the ideas associated with Peter Singer. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Demon-Haunted World",
+          "type": "Book",
+          "author_or_director": "Carl Sagan",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Naturalism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind naturalism.",
+          "detailed_summary": "The Demon-Haunted World is a serious entry point into the ideas associated with Carl Sagan. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Contact",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Naturalism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of naturalism.",
+          "detailed_summary": "Contact is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Martian",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Naturalism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of naturalism.",
+          "detailed_summary": "The Martian is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Gattaca",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Naturalism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of naturalism.",
+          "detailed_summary": "Gattaca is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Her",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Naturalism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of naturalism.",
+          "detailed_summary": "Her is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Ex Machina",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Naturalism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of naturalism.",
+          "detailed_summary": "Ex Machina is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Arrival",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Naturalism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of naturalism.",
+          "detailed_summary": "Arrival is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        }
+      ]
+    },
+    "deism": {
+      "matching_philosophers": [
+        {
+          "name": "John Locke",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "core_idea": "An important perspective explored through An Essay Concerning Human Understanding.",
+          "key_quote": "Explore the central questions raised by An Essay Concerning Human Understanding.",
+          "detailed_summary": "John Locke develops a distinctive account of meaning, knowledge, ethics, or society in An Essay Concerning Human Understanding. This is a useful starting point for investigating the deism worldview."
+        },
+        {
+          "name": "Voltaire",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "core_idea": "An important perspective explored through Letters on the English.",
+          "key_quote": "Explore the central questions raised by Letters on the English.",
+          "detailed_summary": "Voltaire develops a distinctive account of meaning, knowledge, ethics, or society in Letters on the English. This is a useful starting point for investigating the deism worldview."
+        },
+        {
+          "name": "Thomas Paine",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "core_idea": "An important perspective explored through The Age of Reason.",
+          "key_quote": "Explore the central questions raised by The Age of Reason.",
+          "detailed_summary": "Thomas Paine develops a distinctive account of meaning, knowledge, ethics, or society in The Age of Reason. This is a useful starting point for investigating the deism worldview."
+        },
+        {
+          "name": "David Hume",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "core_idea": "An important perspective explored through Dialogues Concerning Natural Religion.",
+          "key_quote": "Explore the central questions raised by Dialogues Concerning Natural Religion.",
+          "detailed_summary": "David Hume develops a distinctive account of meaning, knowledge, ethics, or society in Dialogues Concerning Natural Religion. This is a useful starting point for investigating the deism worldview."
+        },
+        {
+          "name": "Isaac Newton",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "core_idea": "An important perspective explored through Principia Mathematica.",
+          "key_quote": "Explore the central questions raised by Principia Mathematica.",
+          "detailed_summary": "Isaac Newton develops a distinctive account of meaning, knowledge, ethics, or society in Principia Mathematica. This is a useful starting point for investigating the deism worldview."
+        },
+        {
+          "name": "Mary Wollstonecraft",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "core_idea": "An important perspective explored through A Vindication of the Rights of Woman.",
+          "key_quote": "Explore the central questions raised by A Vindication of the Rights of Woman.",
+          "detailed_summary": "Mary Wollstonecraft develops a distinctive account of meaning, knowledge, ethics, or society in A Vindication of the Rights of Woman. This is a useful starting point for investigating the deism worldview."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "An Essay Concerning Human Understanding",
+          "type": "Book",
+          "author_or_director": "John Locke",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Deism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind deism.",
+          "detailed_summary": "An Essay Concerning Human Understanding is a serious entry point into the ideas associated with John Locke. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Letters on the English",
+          "type": "Book",
+          "author_or_director": "Voltaire",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Deism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind deism.",
+          "detailed_summary": "Letters on the English is a serious entry point into the ideas associated with Voltaire. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Age of Reason",
+          "type": "Book",
+          "author_or_director": "Thomas Paine",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Deism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind deism.",
+          "detailed_summary": "The Age of Reason is a serious entry point into the ideas associated with Thomas Paine. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Dialogues Concerning Natural Religion",
+          "type": "Book",
+          "author_or_director": "David Hume",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Deism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind deism.",
+          "detailed_summary": "Dialogues Concerning Natural Religion is a serious entry point into the ideas associated with David Hume. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Principia Mathematica",
+          "type": "Book",
+          "author_or_director": "Isaac Newton",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Deism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind deism.",
+          "detailed_summary": "Principia Mathematica is a serious entry point into the ideas associated with Isaac Newton. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "A Vindication of the Rights of Woman",
+          "type": "Book",
+          "author_or_director": "Mary Wollstonecraft",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Deism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind deism.",
+          "detailed_summary": "A Vindication of the Rights of Woman is a serious entry point into the ideas associated with Mary Wollstonecraft. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Truman Show",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Deism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of deism.",
+          "detailed_summary": "The Truman Show is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Interstellar",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Deism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of deism.",
+          "detailed_summary": "Interstellar is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Theory of Everything",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Deism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of deism.",
+          "detailed_summary": "The Theory of Everything is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Agora",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Deism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of deism.",
+          "detailed_summary": "Agora is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Man Who Knew Infinity",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Deism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of deism.",
+          "detailed_summary": "The Man Who Knew Infinity is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Imitation Game",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Deism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of deism.",
+          "detailed_summary": "The Imitation Game is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        }
+      ]
+    },
+    "existentialism": {
+      "matching_philosophers": [
+        {
+          "name": "Albert Camus",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "core_idea": "An important perspective explored through The Myth of Sisyphus.",
+          "key_quote": "Explore the central questions raised by The Myth of Sisyphus.",
+          "detailed_summary": "Albert Camus develops a distinctive account of meaning, knowledge, ethics, or society in The Myth of Sisyphus. This is a useful starting point for investigating the existentialism worldview."
+        },
+        {
+          "name": "Jean-Paul Sartre",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "core_idea": "An important perspective explored through Being and Nothingness.",
+          "key_quote": "Explore the central questions raised by Being and Nothingness.",
+          "detailed_summary": "Jean-Paul Sartre develops a distinctive account of meaning, knowledge, ethics, or society in Being and Nothingness. This is a useful starting point for investigating the existentialism worldview."
+        },
+        {
+          "name": "Friedrich Nietzsche",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "core_idea": "An important perspective explored through Thus Spoke Zarathustra.",
+          "key_quote": "Explore the central questions raised by Thus Spoke Zarathustra.",
+          "detailed_summary": "Friedrich Nietzsche develops a distinctive account of meaning, knowledge, ethics, or society in Thus Spoke Zarathustra. This is a useful starting point for investigating the existentialism worldview."
+        },
+        {
+          "name": "S?ren Kierkegaard",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "core_idea": "An important perspective explored through The Concept of Anxiety.",
+          "key_quote": "Explore the central questions raised by The Concept of Anxiety.",
+          "detailed_summary": "S?ren Kierkegaard develops a distinctive account of meaning, knowledge, ethics, or society in The Concept of Anxiety. This is a useful starting point for investigating the existentialism worldview."
+        },
+        {
+          "name": "Simone de Beauvoir",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "core_idea": "An important perspective explored through The Ethics of Ambiguity.",
+          "key_quote": "Explore the central questions raised by The Ethics of Ambiguity.",
+          "detailed_summary": "Simone de Beauvoir develops a distinctive account of meaning, knowledge, ethics, or society in The Ethics of Ambiguity. This is a useful starting point for investigating the existentialism worldview."
+        },
+        {
+          "name": "Viktor Frankl",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "core_idea": "An important perspective explored through Man?s Search for Meaning.",
+          "key_quote": "Explore the central questions raised by Man?s Search for Meaning.",
+          "detailed_summary": "Viktor Frankl develops a distinctive account of meaning, knowledge, ethics, or society in Man?s Search for Meaning. This is a useful starting point for investigating the existentialism worldview."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "The Myth of Sisyphus",
+          "type": "Book",
+          "author_or_director": "Albert Camus",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Existentialism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind existentialism.",
+          "detailed_summary": "The Myth of Sisyphus is a serious entry point into the ideas associated with Albert Camus. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Being and Nothingness",
+          "type": "Book",
+          "author_or_director": "Jean-Paul Sartre",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Existentialism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind existentialism.",
+          "detailed_summary": "Being and Nothingness is a serious entry point into the ideas associated with Jean-Paul Sartre. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Thus Spoke Zarathustra",
+          "type": "Book",
+          "author_or_director": "Friedrich Nietzsche",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Existentialism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind existentialism.",
+          "detailed_summary": "Thus Spoke Zarathustra is a serious entry point into the ideas associated with Friedrich Nietzsche. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Concept of Anxiety",
+          "type": "Book",
+          "author_or_director": "S?ren Kierkegaard",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Existentialism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind existentialism.",
+          "detailed_summary": "The Concept of Anxiety is a serious entry point into the ideas associated with S?ren Kierkegaard. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Ethics of Ambiguity",
+          "type": "Book",
+          "author_or_director": "Simone de Beauvoir",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Existentialism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind existentialism.",
+          "detailed_summary": "The Ethics of Ambiguity is a serious entry point into the ideas associated with Simone de Beauvoir. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Man?s Search for Meaning",
+          "type": "Book",
+          "author_or_director": "Viktor Frankl",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Existentialism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind existentialism.",
+          "detailed_summary": "Man?s Search for Meaning is a serious entry point into the ideas associated with Viktor Frankl. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Ikiru",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Existentialism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of existentialism.",
+          "detailed_summary": "Ikiru is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Seventh Seal",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Existentialism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of existentialism.",
+          "detailed_summary": "The Seventh Seal is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Wings of Desire",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Existentialism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of existentialism.",
+          "detailed_summary": "Wings of Desire is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Synecdoche, New York",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Existentialism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of existentialism.",
+          "detailed_summary": "Synecdoche, New York is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Existentialism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of existentialism.",
+          "detailed_summary": "Eternal Sunshine of the Spotless Mind is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Everything Everywhere All at Once",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Existentialism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of existentialism.",
+          "detailed_summary": "Everything Everywhere All at Once is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        }
+      ]
+    },
+    "postmodernism": {
+      "matching_philosophers": [
+        {
+          "name": "Michel Foucault",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "core_idea": "An important perspective explored through Discipline and Punish.",
+          "key_quote": "Explore the central questions raised by Discipline and Punish.",
+          "detailed_summary": "Michel Foucault develops a distinctive account of meaning, knowledge, ethics, or society in Discipline and Punish. This is a useful starting point for investigating the postmodernism worldview."
+        },
+        {
+          "name": "Jacques Derrida",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "core_idea": "An important perspective explored through Of Grammatology.",
+          "key_quote": "Explore the central questions raised by Of Grammatology.",
+          "detailed_summary": "Jacques Derrida develops a distinctive account of meaning, knowledge, ethics, or society in Of Grammatology. This is a useful starting point for investigating the postmodernism worldview."
+        },
+        {
+          "name": "Judith Butler",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "core_idea": "An important perspective explored through Gender Trouble.",
+          "key_quote": "Explore the central questions raised by Gender Trouble.",
+          "detailed_summary": "Judith Butler develops a distinctive account of meaning, knowledge, ethics, or society in Gender Trouble. This is a useful starting point for investigating the postmodernism worldview."
+        },
+        {
+          "name": "Jean-Fran?ois Lyotard",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "core_idea": "An important perspective explored through The Postmodern Condition.",
+          "key_quote": "Explore the central questions raised by The Postmodern Condition.",
+          "detailed_summary": "Jean-Fran?ois Lyotard develops a distinctive account of meaning, knowledge, ethics, or society in The Postmodern Condition. This is a useful starting point for investigating the postmodernism worldview."
+        },
+        {
+          "name": "Gilles Deleuze",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "core_idea": "An important perspective explored through Difference and Repetition.",
+          "key_quote": "Explore the central questions raised by Difference and Repetition.",
+          "detailed_summary": "Gilles Deleuze develops a distinctive account of meaning, knowledge, ethics, or society in Difference and Repetition. This is a useful starting point for investigating the postmodernism worldview."
+        },
+        {
+          "name": "bell hooks",
+          "era_or_school": "Philosophical tradition",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "core_idea": "An important perspective explored through Teaching to Transgress.",
+          "key_quote": "Explore the central questions raised by Teaching to Transgress.",
+          "detailed_summary": "bell hooks develops a distinctive account of meaning, knowledge, ethics, or society in Teaching to Transgress. This is a useful starting point for investigating the postmodernism worldview."
+        }
+      ],
+      "recommended_media": [
+        {
+          "title": "Discipline and Punish",
+          "type": "Book",
+          "author_or_director": "Michel Foucault",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Postmodernism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind postmodernism.",
+          "detailed_summary": "Discipline and Punish is a serious entry point into the ideas associated with Michel Foucault. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Of Grammatology",
+          "type": "Book",
+          "author_or_director": "Jacques Derrida",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Postmodernism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind postmodernism.",
+          "detailed_summary": "Of Grammatology is a serious entry point into the ideas associated with Jacques Derrida. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Gender Trouble",
+          "type": "Book",
+          "author_or_director": "Judith Butler",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Postmodernism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind postmodernism.",
+          "detailed_summary": "Gender Trouble is a serious entry point into the ideas associated with Judith Butler. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Postmodern Condition",
+          "type": "Book",
+          "author_or_director": "Jean-Fran?ois Lyotard",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Postmodernism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind postmodernism.",
+          "detailed_summary": "The Postmodern Condition is a serious entry point into the ideas associated with Jean-Fran?ois Lyotard. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Difference and Repetition",
+          "type": "Book",
+          "author_or_director": "Gilles Deleuze",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Postmodernism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind postmodernism.",
+          "detailed_summary": "Difference and Repetition is a serious entry point into the ideas associated with Gilles Deleuze. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "Teaching to Transgress",
+          "type": "Book",
+          "author_or_director": "bell hooks",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Postmodernism ? philosophy",
+          "short_desc": "A major work for exploring the questions behind postmodernism.",
+          "detailed_summary": "Teaching to Transgress is a serious entry point into the ideas associated with bell hooks. Read it as an invitation to question, compare, and develop your own position."
+        },
+        {
+          "title": "The Double Life of Veronique",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg",
+          "dimension_tag": "Postmodernism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of postmodernism.",
+          "detailed_summary": "The Double Life of Veronique is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Adaptation.",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+          "dimension_tag": "Postmodernism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of postmodernism.",
+          "detailed_summary": "Adaptation. is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Memento",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MSR-ra-61-b-1-DM.jpg",
+          "dimension_tag": "Postmodernism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of postmodernism.",
+          "detailed_summary": "Memento is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Synecdoche, New York",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "dimension_tag": "Postmodernism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of postmodernism.",
+          "detailed_summary": "Synecdoche, New York is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "The Lobster",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aristotle_Altemps_Inv8575.jpg",
+          "dimension_tag": "Postmodernism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of postmodernism.",
+          "detailed_summary": "The Lobster is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
+        },
+        {
+          "title": "Holy Motors",
+          "type": "Movie",
+          "author_or_director": "A film for philosophical reflection",
+          "cover_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Baruch_Spinoza.jpg",
+          "dimension_tag": "Postmodernism ? cinema",
+          "short_desc": "A film that opens a different route into the questions of postmodernism.",
+          "detailed_summary": "Holy Motors is a visual thought experiment: watch its characters test meaning, freedom, truth, or responsibility. Use it as a starting point for your own philosophical notes."
         }
       ]
     }

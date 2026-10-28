@@ -9,7 +9,6 @@ import {
   Legend,
 } from 'chart.js';
 import confetti from 'canvas-confetti';
-import html2canvas from 'html2canvas';
 
 // Import local JSON data & styles
 import worldviewData from './data/worldviewData.json';
@@ -25,16 +24,17 @@ import OracleStep3 from './components/OracleStep3';
 import OracleStep4 from './components/OracleStep4';
 import Dashboard from './components/Dashboard';
 import Library from './components/Library';
-import GeminiChat from './components/GeminiChat';
-import { getLocalRecommendations, getPersonalizedRecommendations, isGeminiConfigured } from './services/gemini';
+import LandingPage from './components/LandingPage';
+import IdeaUniverse from './components/IdeaUniverse';
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
 
 export default function App() {
   const [tab, setTab] = useState('oracle');
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(0);
   const [media, setMedia] = useState({ books: '', movies: '', quote: '' });
   const [choices, setChoices] = useState({});
+  const [includeExtraQuestions, setIncludeExtraQuestions] = useState(false);
   const [result, setResult] = useState(null);
   const [savedProfiles, setSavedProfiles] = useState(() => {
     try {
@@ -53,7 +53,12 @@ export default function App() {
     }
   });
   const [activeModal, setActiveModal] = useState(null);
-  const [aiRecommendations, setAiRecommendations] = useState([]);
+  const goHome = () => {
+    setTab('oracle');
+    setStep(0);
+    setResult(null);
+    setIncludeExtraQuestions(false);
+  };
 
   useEffect(() => {
     if (step === 4 && result) {
@@ -65,20 +70,8 @@ export default function App() {
     setChoices((prev) => ({ ...prev, [qId]: option }));
   };
 
-  const continueToQuestions = async () => {
+  const continueToQuestions = () => {
     setStep(2);
-    if (!media.books && !media.movies && !media.quote) return;
-    const localRecommendations = getLocalRecommendations(media);
-    setAiRecommendations(localRecommendations);
-    if (!isGeminiConfigured) return;
-    try {
-      const personalizedRecommendations = await getPersonalizedRecommendations(media);
-      if (personalizedRecommendations.length > 0) {
-        setAiRecommendations(personalizedRecommendations);
-      }
-    } catch (error) {
-      console.warn('Gemini recommendations unavailable; keeping local recommendations.', error);
-    }
   };
 
   const calculateWorldview = () => {
@@ -125,7 +118,6 @@ export default function App() {
           .filter((item) => ['Book', 'Movie', 'Article'].includes(item.type))
           .slice(0, 3),
       };
-
       setResult(computedResult);
       setStep(4);
 
@@ -156,39 +148,37 @@ export default function App() {
     localStorage.setItem('aletheia_local_profiles', JSON.stringify(u));
   };
 
-  const exportManuscript = () => {
-    const element = document.getElementById('sacred-dossier');
-    if (!element) return;
-    html2canvas(element, { backgroundColor: '#14100c', scale: 2 }).then((canvas) => {
-      const link = document.createElement('a');
-      link.download = `Aletheia-Result-${result?.archetype_title?.replace(/\s+/g, '-') || 'Snapshot'}.png`;
-      link.href = canvas.toDataURL();
-      link.click();
-    });
-  };
-
   return (
-    <div className="min-h-screen flex flex-col justify-between p-3 md:p-6 relative bg-[#14100c] text-[#f2e8d5]">
+    <div className={`min-h-screen flex flex-col justify-between p-3 md:p-6 relative bg-[#14100c] text-[#f2e8d5] ${tab === 'oracle' && step === 0 ? 'landing-shell' : ''}`}>
       <div className="golden-border-frame"></div>
 
-      <Header tab={tab} setTab={setTab} />
+      <Header tab={tab} setTab={setTab} onHome={goHome} savedProfiles={savedProfiles.length} savedItems={savedItems.length} />
 
       <main className="w-full mx-auto my-4 flex-grow relative z-10">
-        <div className="app-intro">
-          <h1>Understand your <em>patterns.</em></h1>
-          <p>Seven simple questions. One philosophical mirror. Find the worldview that best matches your answers.</p>
-        </div>
-        <div className="parchment-container w-full lg:w-[96%] lg:mx-auto rounded p-5 md:p-10 relative min-h-[600px] text-[#f2e8d5] flex flex-col justify-between">
+        {tab === 'oracle' && step === 0 ? (
+          <LandingPage onBegin={() => setStep(1)} />
+        ) : tab === 'oracle' ? (
+          <div className="app-intro">
+            <div className="intro-copy">
+              <span className="intro-kicker"><span className="pulse-dot" /> A personal philosophy lab</span>
+              <h1>Understand your <em>patterns.</em></h1>
+              <p>Seven questions. One philosophical mirror. A clearer way to meet the ideas shaping your life.</p>
+            </div>
+          </div>
+        ) : null}
+        {!(tab === 'oracle' && step === 0) && <div className={`parchment-container w-full lg:w-[96%] lg:mx-auto rounded p-5 md:p-10 relative ${tab === 'universe' ? 'universe-container' : 'min-h-[600px]'} text-[#f2e8d5] flex flex-col justify-between`}>
           
           {tab === 'oracle' && (
             <>
               {step === 1 && <OracleStep1 media={media} setMedia={setMedia} setStep={continueToQuestions} />}
               {step === 2 && (
                 <OracleStep2
-                  questions={worldviewData.questions}
+                  questions={includeExtraQuestions ? [...worldviewData.questions, ...worldviewData.extraQuestions] : worldviewData.questions}
                   choices={choices}
                   handleChoice={handleChoice}
                   setStep={setStep}
+                  includeExtraQuestions={includeExtraQuestions}
+                  setIncludeExtraQuestions={setIncludeExtraQuestions}
                   calculateWorldview={calculateWorldview}
                 />
               )}
@@ -196,13 +186,12 @@ export default function App() {
               {step === 4 && result && (
                 <OracleStep4
                   result={result}
-                  exportManuscript={exportManuscript}
                   toggleBookmark={toggleBookmark}
                   setActiveModal={setActiveModal}
                   setStep={setStep}
                   setResult={setResult}
                   setChoices={setChoices}
-                  aiRecommendations={aiRecommendations}
+                  setIncludeExtraQuestions={setIncludeExtraQuestions}
                 />
               )}
             </>
@@ -221,15 +210,15 @@ export default function App() {
           )}
 
           {tab === 'library' && (
-            <Library database={worldviewData.archetypes} setActiveModal={setActiveModal} />
+            <Library database={worldviewData.archetypes} setActiveModal={setActiveModal} onExplore={() => setTab('universe')} />
           )}
 
-        </div>
+          {tab === 'universe' && <IdeaUniverse result={result || savedProfiles[0]?.data} onBack={() => setTab('library')} setActiveModal={setActiveModal} />}
+
+        </div>}
       </main>
 
       <Modal activeModal={activeModal} setActiveModal={setActiveModal} />
-      {step === 4 && result && <GeminiChat result={result} media={media} recommendations={aiRecommendations} />}
-
       <Footer />
     </div>
   );

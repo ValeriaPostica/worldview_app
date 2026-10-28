@@ -1,7 +1,7 @@
-import { Download, User, BookOpen, Bookmark, Sparkles } from 'lucide-react';
+import { User, BookOpen, Bookmark } from 'lucide-react';
 import { Radar } from 'react-chartjs-2';
 
-export default function OracleStep4({ result, exportManuscript, toggleBookmark, setActiveModal, setStep, setResult, setChoices, aiRecommendations }) {
+export default function OracleStep4({ result, toggleBookmark, setActiveModal, setStep, setResult, setChoices, setIncludeExtraQuestions }) {
   const getChartData = () => {
     if (!result || !result.radar_scores) return null;
     const scores = result.radar_scores;
@@ -30,9 +30,6 @@ export default function OracleStep4({ result, exportManuscript, toggleBookmark, 
     <div id="sacred-dossier" className="space-y-8">
       <div className="flex justify-between items-center border-b border-[#d4af37]/25 pb-2">
         <div><span className="eyebrow">Your result</span><span className="text-sm font-mono uppercase tracking-[0.2em] text-[#d4af37] block">A snapshot of your worldview</span></div>
-        <button onClick={exportManuscript} className="inline-flex items-center gap-2 bg-[#17120d] text-[#d4af37] border border-[#d4af37]/50 px-4 py-2 rounded text-sm font-bold uppercase hover:bg-[#d4af37]/20 transition">
-          <Download className="w-4 h-4" /> Export Image
-        </button>
       </div>
 
       <div className="text-center space-y-1.5">
@@ -134,16 +131,7 @@ export default function OracleStep4({ result, exportManuscript, toggleBookmark, 
         </div>
       </div>}
 
-      {aiRecommendations.length > 0 && (
-        <div className="space-y-3 ai-result-recommendations">
-          <div className="section-label result-section-title"><Sparkles className="w-6 h-6 text-[#d4af37]" /> Based on what you like</div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {aiRecommendations.map((item) => <div key={`${item.type}-${item.title}`} className="ai-result-card"><span>{item.type}</span><h4>{item.title}</h4><small>{item.creator}</small><p>{item.reason}</p></div>)}
-          </div>
-        </div>
-      )}
-
-      <button onClick={() => { setStep(1); setResult(null); setChoices({}); }} className="w-full bg-[#17120d] hover:bg-[#2b2118] text-[#f7f1e3] text-xs font-bold py-3 rounded transition border border-[#d4af37]/40 uppercase tracking-[0.2em]">Start over</button>
+      <button onClick={() => { setStep(1); setResult(null); setChoices({}); setIncludeExtraQuestions(false); }} className="w-full bg-[#17120d] hover:bg-[#2b2118] text-[#f7f1e3] text-xs font-bold py-3 rounded transition border border-[#d4af37]/40 uppercase tracking-[0.2em]">Start over</button>
     </div>
   );
 }

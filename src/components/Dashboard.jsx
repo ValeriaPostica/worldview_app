@@ -1,11 +1,11 @@
-import { Trash2, Bookmark, ArrowUpRight } from 'lucide-react';
+import { Trash2, Bookmark, ArrowUpRight, Lightbulb, History } from 'lucide-react';
 
 export default function Dashboard({ savedProfiles, deleteProfile, savedItems = [], setResult, setStep, setTab, setActiveModal }) {
   return (
-    <div className="space-y-4">
-      <div className="border-b border-[#d4af37]/25 pb-2">
-        <span className="text-[9px] font-mono uppercase tracking-[0.2em] text-[#d4af37]">Your saved space</span>
-        <h2 className="text-base font-serif text-[#f3e5ab] font-bold">Your results and bookmarks</h2>
+    <div className="saved-dashboard">
+      <div className="dashboard-heading">
+        <div><span className="eyebrow">Your space</span><h2>Saved thoughts</h2><p>Return to the ideas that stayed with you.</p></div>
+        <Lightbulb className="dashboard-heading-icon" />
       </div>
 
       <div className="folio-stats">
@@ -14,6 +14,7 @@ export default function Dashboard({ savedProfiles, deleteProfile, savedItems = [
         <div><strong>5</strong><span>dimensions</span></div>
       </div>
 
+      <div className="dashboard-section-title"><History className="w-4 h-4" /> Reflection history</div>
       {savedProfiles.length === 0 ? (
         <div className="text-center py-12 space-y-2">
           <p className="text-xs text-[#c2b59b] italic">No prior evaluations saved yet.</p>
@@ -42,8 +43,8 @@ export default function Dashboard({ savedProfiles, deleteProfile, savedItems = [
           ))}
         </div>
       )}
-      <div className="space-y-3 pt-2">
-        <div className="section-label"><Bookmark className="w-3.5 h-3.5" /> Saved ideas</div>
+      <div className="dashboard-section">
+        <div className="dashboard-section-title"><Bookmark className="w-4 h-4" /> Saved ideas</div>
         {savedItems.length === 0 ? (
           <p className="empty-note">Save a book, film, or essay from your result and it will appear here.</p>
         ) : (

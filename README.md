@@ -9,7 +9,7 @@ The application combines the medieval aesthetic of an illuminated manuscript and
 ## Key Features
 
 - Zero-Latency Engine: Local deterministic calculation based on weighting vectors, allowing the app to run 100% offline without external API dependencies or network latency.
-- Digital Manuscript Interface: An immersive aged-parchment design featuring gold accents, medieval decorative flourishes, and classic typography (Cinzel and Cormorant Garamond).
+- Digital Manuscript Interface: An immersive dark-manuscript design featuring gold accents, editorial typography, responsive cards, progress feedback, and subtle motion.
 - Soul Geometry Map (Radar Chart): Graphical visualization across 5 core philosophical axes:
   1. Ethics: Deontology (Kant) vs. Utilitarianism (Mill)
   2. Epistemology: Rationalism (Descartes) vs. Empiricism (Hume)
@@ -19,6 +19,10 @@ The application combines the medieval aesthetic of an illuminated manuscript and
 - Philosophical Canon & Recommended Media: Each outcome features matched classic books, films, and essays complete with authentic historical portraits and artwork.
 - Local Persistence (Folio & Bookmarks): Save assessment history and favorite reading materials directly to local storage.
 - PNG Export: Render and download the resulting manuscript scroll as an image using html2canvas.
+- Shareable Results: Copy or share a concise worldview snapshot using the Web Share API when available.
+- Discoverable Library: Search the recommendation shelf and filter it by medium without leaving the app.
+- Guided Reflection: Live answer progress, a daily philosophical thought, and privacy-first onboarding reduce friction.
+- Idea Universe: Explore a star map of philosophy questions, personalized around the worldview from your latest reflection.
 
 ---
 
@@ -62,6 +66,10 @@ aletheia-app/
 ├── package.json                # Project dependencies and scripts
 └── README.md                   # Project documentation
 ```
+
+## Product direction
+
+Aletheia is a reflection tool, not a personality diagnosis. Results are private to the browser by default, can be revisited from Saved, and are framed as lenses for curiosity rather than permanent labels. The core assessment works offline; Gemini is an optional enhancement for contextual recommendations and conversation.
 
 ---
 

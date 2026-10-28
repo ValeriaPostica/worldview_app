@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Quote } from 'lucide-react';
 
 export default function OracleStep1({ media, setMedia, setStep }) {
   return (
@@ -8,6 +8,10 @@ export default function OracleStep1({ media, setMedia, setStep }) {
         <span className="text-sm font-mono text-[#d4af37]/80">1 / 2</span>
       </div>
 
+      <div className="thought-card">
+        <Quote className="w-5 h-5" />
+        <div><span className="thought-label">A thought to carry with you</span><p>“The unexamined life is not worth living.” — Socrates</p></div>
+      </div>
       <p className="step-lead">There are no right answers. Share the books, films, and ideas you keep coming back to.</p>
       <div className="space-y-5 text-base">
         <div>

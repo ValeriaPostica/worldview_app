@@ -98,6 +98,37 @@ export function getLocalRecommendations(media) {
     }));
 }
 
+export async function analyzeInterests(media, result) {
+    const interests = `Books, writers, or thinkers: ${media.books || 'Not provided'}
+  Films, shows, or visual stories: ${media.movies || 'Not provided'}
+  Quote or idea: ${media.quote || 'Not provided'}`;
+    if (!ai) return buildInterestAnalysis(media, result);
+
+  try {
+    const response = await generate({
+      model,
+      contents: `You are Aletheia, a clear and thoughtful philosophy guide.
+Write a short personal conclusion about the connection between a user's cultural interests and their quiz worldview.
+Use only the information below. Do not diagnose them or claim their tastes prove anything.
+Write exactly 3 short paragraphs, in warm modern English, with 1-2 sentences per paragraph.
+Mention at least one specific book, film, thinker, quote, or idea from the user's input when available.
+
+Worldview: ${result.archetype_title}
+Worldview description: ${result.philosophical_thesis}
+
+${interests}
+
+Return plain text only.`,
+      config: { temperature: 0.6, maxOutputTokens: 260 },
+    });
+    const text = getResponseText(response);
+    if (text) return text;
+  } catch (error) {
+    console.warn('Gemini interest analysis unavailable; using local conclusion.', error);
+  }
+  return buildInterestAnalysis(media, result);
+}
+
 export async function getPersonalizedRecommendations(media) {
   if (!ai) {
     throw new Error('Gemini is not configured. Add VITE_GEMINI_API_KEY to your .env file.');
@@ -192,6 +223,14 @@ Reply with plain text only.`;
     return buildKeywordReply(message, context);
   }
   return buildKeywordReply(message, context);
+}
+
+function buildInterestAnalysis(media, result) {
+  const interests = [media.books, media.movies, media.quote].filter(Boolean).join(', ');
+  const interestLine = interests
+    ? `Your references to ${interests} suggest that you are drawn to questions rather than easy answers.`
+    : 'Your answers suggest that you are drawn to questions rather than easy answers.';
+  return `${interestLine}\n\nThat curiosity connects naturally with ${result.archetype_title}: ${result.philosophical_thesis}\n\nTreat this as a conversation starter, not a fixed label. The most useful next step is to notice which idea you agree with and which one makes you uncomfortable.`;
 }
 
 function buildKeywordReply(message, context) {
